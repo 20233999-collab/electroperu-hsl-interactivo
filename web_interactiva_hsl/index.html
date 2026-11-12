@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campaña Interactiva de Prevención del HSL | ELECTROPERU S.A.</title>
+  <link rel="icon" type="image/png" href="assets/logo_electroperu_oficial_v3.png">
+  <meta name="description" content="Campaña interactiva de prevención y sanción del Hostigamiento Sexual Laboral (Ley N° 27942) en ELECTROPERU S.A. - Lima, Mantaro y Tumbes.">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header de la aplicación web -->
+  <header class="app-header">
+    <div class="app-header-inner">
+      <div class="app-brand">
+        <picture>
+          <source srcset="assets/logo_electroperu_web.webp" type="image/webp">
+          <img src="assets/logo_electroperu_oficial_v3.png" alt="ELECTROPERU S.A." class="app-logo" width="96" height="65" decoding="async" fetchpriority="high">
+        </picture>
+        <div class="app-title-group">
+          <span class="app-eyebrow">LEY N° 27942 • D. LEG. N° 1410 • LIMA, MANTARO Y TUMBES</span>
+          <h1 class="app-title">Campaña Interactiva de Prevención del HSL</h1>
+        </div>
+      </div>
+
+      <div class="app-controls">
+        <div class="sede-control">
+          <label for="sede-selector" class="sede-label">Sede:</label>
+          <select id="sede-selector" class="sede-select" aria-label="Seleccionar sede de ELECTROPERU S.A.">
+            <option value="todas">Todas las Sedes</option>
+            <option value="lima">Lima</option>
+            <option value="mantaro">Mantaro</option>
+            <option value="tumbes">Tumbes</option>
+          </select>
+        </div>
+
+        <button type="button" id="btn-open-quiz" class="btn btn-quiz">
+          <span class="btn-quiz-icon" aria-hidden="true">✓</span>
+          <span>Quiz de Repaso</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Workspace principal: 2 columnas en Desktop, adaptable en Móvil -->
+  <main class="app-workspace">
+    <!-- Sidebar izquierdo: Progreso + Lista de 10 flyers + Info de Sede -->
+    <aside id="sidebar-nav" class="sidebar-nav" aria-label="Navegación de temas de la campaña">
+      <div class="progress-panel">
+        <div class="progress-header">
+          <span class="progress-title">Tu avance en la campaña</span>
+          <span id="progress-text" class="progress-count">1 / 10 vistos</span>
+        </div>
+        <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="1" id="progress-bar-aria">
+          <div id="progress-fill" class="progress-fill" style="width: 10%;"></div>
+        </div>
+      </div>
+
+      <div class="sidebar-search-wrap">
+        <input type="search" id="sidebar-search" class="sidebar-search-input" placeholder="Buscar tema o palabra clave..." aria-label="Buscar tema de la campaña" autocomplete="off">
+      </div>
+
+      <nav class="sidebar-list-wrapper" aria-label="Temas del 01 al 10">
+        <ul id="sidebar-list" class="sidebar-list">
+          <!-- Renderizado dinámicamente por js/app.js -->
+        </ul>
+        <p id="sidebar-empty" class="sidebar-empty" hidden>No se encontraron temas que coincidan con tu búsqueda.</p>
+      </nav>
+
+      <section id="sede-info-card" class="sede-info-card" aria-live="polite">
+        <div class="sede-info-badge" id="sede-info-badge">COBERTURA 360°</div>
+        <h2 class="sede-info-title" id="sede-info-title">Todas las Sedes (Cobertura Nacional)</h2>
+        <p class="sede-info-channel" id="sede-info-channel"></p>
+        <p class="sede-info-coverage" id="sede-info-coverage"></p>
+        <div class="sede-info-links">
+          <a href="https://aliada.sunafil.gob.pe" target="_blank" rel="noopener noreferrer" class="sede-link">Plataforma ALIADA</a>
+          <a href="tel:1819" class="sede-link sede-link-call">Línea 1819</a>
+        </div>
+      </section>
+    </aside>
+
+    <!-- Área del Visor Central -->
+    <section id="viewer-stage" class="viewer-stage" aria-label="Visor interactivo de flyers">
+      <!-- Barra superior tipo Stories de 10 segmentos clicables -->
+      <div id="stories-bar" class="stories-bar" role="tablist" aria-label="Progreso de historias de la campaña">
+        <!-- Renderizado dinámicamente por js/app.js -->
+      </div>
+
+      <!-- Toolbar rápida del visor -->
+      <div class="viewer-toolbar">
+        <div class="toolbar-nav">
+          <button type="button" id="btn-prev" class="btn btn-nav" aria-label="Flyer anterior">
+            <span aria-hidden="true">←</span> Anterior
+          </button>
+          <span id="flyer-counter" class="flyer-counter">01 / 10</span>
+          <button type="button" id="btn-next" class="btn btn-nav" aria-label="Siguiente flyer">
+            Siguiente <span aria-hidden="true">→</span>
+          </button>
+        </div>
+
+        <div class="toolbar-actions">
+          <a id="btn-download-png" href="assets/flyers/flyer_01_que_es_el_hsl.png" download="flyer_01_que_es_el_hsl.png" class="btn btn-download">
+            <span aria-hidden="true">↓</span> Descargar PNG
+          </a>
+          <button type="button" id="btn-fullscreen" class="btn btn-fullscreen" aria-label="Activar o salir de pantalla completa">
+            <span aria-hidden="true">⛶</span> Pantalla Completa
+          </button>
+        </div>
+      </div>
+
+      <!-- Contenedor del Flyer Interactivo (Estructura limpia V3.0) -->
+      <div class="flyer-viewport">
+        <article id="flyer-canvas" class="flyer-canvas" aria-live="polite">
+          <!-- Renderizado dinámicamente por js/app.js -->
+        </article>
+      </div>
+      <p class="viewer-keyboard-hint" aria-hidden="true">Usa <kbd>←</kbd> <kbd>→</kbd> para navegar • <kbd>Esc</kbd> para cerrar</p>
+    </section>
+  </main>
+
+  <!-- Modal de Detalle de Tarjeta -->
+  <div id="detail-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-dialog detail-dialog">
+      <button type="button" id="btn-close-detail" class="modal-close" aria-label="Cerrar ventana de detalle">×</button>
+      <div class="detail-modal-header">
+        <div id="modal-icon" class="detail-modal-icon" aria-hidden="true"></div>
+        <div class="detail-modal-titles">
+          <span id="modal-badge" class="detail-modal-badge"></span>
+          <h2 id="modal-title" class="detail-modal-title"></h2>
+        </div>
+      </div>
+
+      <div class="detail-modal-body">
+        <div class="detail-block">
+          <h3 class="detail-block-label">¿Qué significa en la práctica?</h3>
+          <p id="modal-explanation" class="detail-block-text"></p>
+        </div>
+
+        <div class="detail-block detail-block-example">
+          <h3 class="detail-block-label">Ejemplo cotidiano en el trabajo</h3>
+          <p id="modal-example" class="detail-block-text"></p>
+        </div>
+
+        <div class="detail-block detail-block-rule">
+          <h3 class="detail-block-label">Regla clave</h3>
+          <p id="modal-key-rule" class="detail-block-text"></p>
+        </div>
+
+        <div class="detail-legal-footer">
+          <span class="detail-legal-tag">Base Legal:</span>
+          <span id="modal-legal-ref" class="detail-legal-ref"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal del Mini-Quiz -->
+  <div id="quiz-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="quiz-modal-title" hidden>
+    <div class="modal-dialog quiz-dialog">
+      <button type="button" id="btn-close-quiz" class="modal-close" aria-label="Cerrar quiz de repaso">×</button>
+      <div class="quiz-header">
+        <span class="quiz-eyebrow">EVALUACIÓN INTERACTIVA • ELECTROPERU S.A.</span>
+        <h2 id="quiz-modal-title" class="quiz-title">Mini-Quiz de Repaso HSL</h2>
+        <p id="quiz-progress-label" class="quiz-progress-label">Pregunta 1 de 5</p>
+      </div>
+
+      <div id="quiz-body" class="quiz-body">
+        <!-- Renderizado dinámicamente por js/app.js -->
+      </div>
+    </div>
+  </div>
+
+  <script defer src="js/data.js"></script>
+  <script defer src="js/app.js"></script>
+</body>
+</html>

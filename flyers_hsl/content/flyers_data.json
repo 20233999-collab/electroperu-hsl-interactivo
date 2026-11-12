@@ -1,0 +1,524 @@
+[
+  {
+    "id": "01",
+    "slug": "flyer_01_que_es_el_hsl",
+    "filename": "flyer_01_que_es_el_hsl.png",
+    "category_badge": "CONCEPTOS CLAVE • LEY N° 27942",
+    "title": "¿Qué es el Hostigamiento Sexual Laboral?",
+    "subtitle": "Reconoce las conductas que vulneran tu dignidad en Lima, Mantaro y Tumbes",
+    "key_concept": "Es toda conducta sexual o sexista no deseada que crea un ambiente hostil y vulnera tu dignidad laboral.",
+    "infographic_type": "anatomy_cards",
+    "sections": [
+      {
+        "heading": "Conducta No Deseada",
+        "body": "No necesitas rechazarla en voz alta ni que se repita: basta que te incomode.",
+        "tag": "SIN REITERACIÓN",
+        "metric_or_badge": "SIN REITERACIÓN",
+        "footer_label": "Art. 4 D.S. 014-2019-MIMP",
+        "icon_concept": "hand_stop_shield"
+      },
+      {
+        "heading": "Sexual o Sexista",
+        "body": "Incluye actos físicos, verbales o digitales de índole sexual y estereotipos que denigran.",
+        "tag": "D. LEG. N° 1410",
+        "metric_or_badge": "D. LEG. N° 1410",
+        "footer_label": "Conducta Sexual o Sexista",
+        "icon_concept": "alert_speech_bubble"
+      },
+      {
+        "heading": "Ambiente Laboral Hostil",
+        "body": "Genera intimidación o humillación y afecta tu tranquilidad, desempeño o permanencia en el trabajo.",
+        "tag": "IMPACTO LABORAL",
+        "metric_or_badge": "CLIMA SEGURO",
+        "footer_label": "Lima, Mantaro y Tumbes",
+        "icon_concept": "workplace_warning"
+      },
+      {
+        "heading": "Un Acto Basta",
+        "body": "Según el D.S. 014-2019-MIMP, un solo acto grave configura hostigamiento sexual sancionable por ley.",
+        "tag": "ART. 6 LEY 27942",
+        "metric_or_badge": "1 SOLO ACTO",
+        "footer_label": "Ley N° 27942 Modificada",
+        "icon_concept": "gavel_scale"
+      }
+    ],
+    "highlight_box": {
+      "label": "DATO CLAVE NORMATIVO",
+      "title": "Ley N° 27942 y D. Leg. N° 1410: un solo acto basta",
+      "text": "La ley no exige reiteración ni rechazo expreso de la víctima; ELECTROPERU protege tu dignidad en nuestras tres sedes.",
+      "body": "La ley no exige reiteración ni rechazo expreso de la víctima; ELECTROPERU protege tu dignidad en nuestras tres sedes.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Ley N° 27942 • D. Leg. N° 1410 • D.S. N° 014-2019-MIMP"
+    },
+    "cta_footer": "Identifica, rechaza y reporta. Escanea el QR para consultar la Plataforma ALIADA de SUNAFIL."
+  },
+  {
+    "id": "02",
+    "slug": "flyer_02_manifestaciones_y_conductas",
+    "filename": "flyer_02_manifestaciones_y_conductas.png",
+    "category_badge": "ALERTA PREVENTIVA • ART. 6 LEY N° 27942",
+    "title": "Manifestaciones y Conductas Prohibidas",
+    "subtitle": "El hostigamiento sexual no es broma ni halago: conoce sus formas",
+    "key_concept": "Desde chantajes hasta bromas sexistas, mensajes invasivos o tocamientos: ninguna conducta sexual no deseada se tolera en ELECTROPERU.",
+    "infographic_type": "warning_grid",
+    "sections": [
+      {
+        "heading": "Chantaje Sexual",
+        "body": "Condicionar beneficios laborales o amenazar con perjuicios a cambio de favores o conductas sexuales.",
+        "tag": "CHANTAJE SEXUAL",
+        "metric_or_badge": "ART. 176-C CP",
+        "footer_label": "Chantaje Implícito o Explícito",
+        "icon_concept": "warning_contract_lock"
+      },
+      {
+        "heading": "Bromas y Comentarios",
+        "body": "Chistes de doble sentido, comentarios sobre el cuerpo o vestimenta e insinuaciones incómodas.",
+        "tag": "ACOSO VERBAL",
+        "metric_or_badge": "CERO BROMAS",
+        "footer_label": "Art. 6 inc. b) Ley N° 27942",
+        "icon_concept": "megaphone_prohibited"
+      },
+      {
+        "heading": "Contacto Físico Indebido",
+        "body": "Roces deliberados, abrazos forzados, pellizcos o acercamientos que invaden tu espacio personal laboral.",
+        "tag": "INVASIÓN FÍSICA",
+        "metric_or_badge": "ESPACIO PERSONAL",
+        "footer_label": "Art. 6 inc. c) Ley N° 27942",
+        "icon_concept": "personal_space_barrier"
+      },
+      {
+        "heading": "Acoso Digital y Gestual",
+        "body": "Envío de fotos, videos o mensajes sexuales por WhatsApp o correo, y miradas lascivas.",
+        "tag": "ENTORNO VIRTUAL",
+        "metric_or_badge": "PRESENCIAL Y REMOTO",
+        "footer_label": "Cobertura Digital Completa",
+        "icon_concept": "smartphone_alert"
+      }
+    ],
+    "highlight_box": {
+      "label": "RECUERDA EN ELECTROPERU",
+      "title": "En el trabajo presencial y remoto también aplica",
+      "text": "Los mensajes por WhatsApp, correos o videollamadas en Lima, Mantaro y Tumbes están regulados por la Ley N° 27942.",
+      "body": "Los mensajes por WhatsApp, correos o videollamadas en Lima, Mantaro y Tumbes están regulados por la Ley N° 27942.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Art. 6 Ley N° 27942 • D. Leg. N° 1410"
+    },
+    "cta_footer": "Ninguna broma justifica la incomodidad. Revisa la guía preventiva en la Plataforma ALIADA."
+  },
+  {
+    "id": "03",
+    "slug": "flyer_03_principio_autoridad_y_entorno",
+    "filename": "flyer_03_principio_autoridad_y_entorno.png",
+    "category_badge": "ALCANCE ORGANIZACIONAL • COBERTURA 360°",
+    "title": "El Principio de Autoridad y el Entorno Laboral",
+    "subtitle": "El respeto nos protege a todos sin importar el cargo ni modalidad",
+    "key_concept": "El hostigamiento sexual se sanciona con o sin jerarquía: entre jefaturas, compañeros del mismo nivel, practicantes o contratistas.",
+    "infographic_type": "hierarchy_flow",
+    "sections": [
+      {
+        "heading": "Hostigamiento Vertical",
+        "body": "Cuando alguien con autoridad o jefatura usa su cargo para presionar o condicionar subordinados.",
+        "tag": "CON JERARQUÍA",
+        "metric_or_badge": "CON AUTORIDAD",
+        "footer_label": "Dirección, Confianza o Supervisión",
+        "icon_concept": "hierarchy_down_arrow"
+      },
+      {
+        "heading": "Hostigamiento Horizontal",
+        "body": "Ocurre entre compañeras y compañeros del mismo nivel, creando un ambiente intimidante o humillante.",
+        "tag": "ENTRE PARES",
+        "metric_or_badge": "SIN DEPENDENCIA",
+        "footer_label": "Sancionable por D. Leg. N° 1410",
+        "icon_concept": "horizontal_arrows_users"
+      },
+      {
+        "heading": "Terceros y Contratistas",
+        "body": "Abarca personal en planilla, practicantes, locadores de servicios, contratistas, proveedores y clientes vinculados.",
+        "tag": "COBERTURA 360°",
+        "metric_or_badge": "TODA MODALIDAD",
+        "footer_label": "Planilla, Practicantes y Terceros",
+        "icon_concept": "network_shield_nodes"
+      }
+    ],
+    "highlight_box": {
+      "label": "DATO CLAVE NORMATIVO",
+      "title": "Protección total en nuestras tres sedes",
+      "text": "La Ley N° 27942 protege a todo trabajador, practicante y contratista en Lima, Complejo Mantaro y sede Tumbes.",
+      "body": "La Ley N° 27942 protege a todo trabajador, practicante y contratista en Lima, Complejo Mantaro y sede Tumbes.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Art. 1 y 2 Ley N° 27942 • D.S. N° 014-2019-MIMP"
+    },
+    "cta_footer": "El respeto es horizontal y vertical. Consulta el alcance legal escaneando el QR."
+  },
+  {
+    "id": "04",
+    "slug": "flyer_04_obligaciones_del_empleador",
+    "filename": "flyer_04_obligaciones_del_empleador.png",
+    "category_badge": "COMPROMISO INSTITUCIONAL • FONAFE & SUNAFIL",
+    "title": "Obligaciones de ELECTROPERU S.A. frente al HSL",
+    "subtitle": "Nuestro deber legal y ético para garantizar un trabajo seguro",
+    "key_concept": "ELECTROPERU S.A. previene, investiga y sanciona el hostigamiento sexual con capacitaciones, canales seguros, Comité paritario y protección inmediata.",
+    "infographic_type": "shield_pillars",
+    "sections": [
+      {
+        "heading": "Capacitación Obligatoria",
+        "body": "Capacitar a todo el personal y brindar formación anual especializada a RR.HH. y al Comité.",
+        "tag": "PREVENCIÓN ACTIVA",
+        "metric_or_badge": "PERSONAL + COMITÉ",
+        "footer_label": "Art. 11 D.S. 014-2019-MIMP",
+        "icon_concept": "graduation_shield"
+      },
+      {
+        "heading": "Comité de Intervención",
+        "body": "Garantizar un Comité paritario activo (obligatorio desde veinte trabajadores) y canales confidenciales de denuncia.",
+        "tag": "ÓRGANO AUTÓNOMO",
+        "metric_or_badge": "≥ 20 TRABAJADORES",
+        "footer_label": "Comité Paritario Activo",
+        "icon_concept": "building_pillars_check"
+      },
+      {
+        "heading": "Protección sin Perjuicio",
+        "body": "Dictar medidas de protección en máximo tres días hábiles sin afectar tus derechos laborales.",
+        "tag": "DEBIDO PROCESO",
+        "metric_or_badge": "≤ 3 DÍAS HÁBILES",
+        "footer_label": "Tutela Urgente a la Víctima",
+        "icon_concept": "justice_balance_clock"
+      },
+      {
+        "heading": "Reporte al MTPE",
+        "body": "Informar las denuncias, medidas y sanciones en la plataforma oficial del Ministerio de Trabajo.",
+        "tag": "REGISTRO SIHSL",
+        "metric_or_badge": "≤ 6 DÍAS HÁBILES",
+        "footer_label": "Plataforma SIHSL MTPE",
+        "icon_concept": "clipboard_verified_cloud"
+      }
+    ],
+    "highlight_box": {
+      "label": "COMPROMISO ELECTROPERU S.A.",
+      "title": "Prevención activa alineada a FONAFE y SUNAFIL",
+      "text": "La Subgerencia de Gestión Humana realiza evaluaciones anuales y difunde herramientas preventivas en Lima, Mantaro y Tumbes.",
+      "body": "La Subgerencia de Gestión Humana realiza evaluaciones anuales y difunde herramientas preventivas en Lima, Mantaro y Tumbes.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Art. 7 Ley N° 27942 • D.S. N° 014-2019-MIMP"
+    },
+    "cta_footer": "Un clima laboral íntegro es compromiso de todos. Consulta nuestros protocolos en el QR."
+  },
+  {
+    "id": "05",
+    "slug": "flyer_05_derechos_de_los_trabajadores",
+    "filename": "flyer_05_derechos_de_los_trabajadores.png",
+    "category_badge": "GARANTÍAS DEL PERSONAL • PROTECCIÓN LEGAL",
+    "title": "Derechos de las Trabajadoras y los Trabajadores",
+    "subtitle": "Alzar la voz está respaldado por ley desde el primer momento",
+    "key_concept": "Tienes derecho a trabajar sin violencia, denunciar con reserva absoluta y recibir protección sin represalias.",
+    "infographic_type": "rights_checklist",
+    "sections": [
+      {
+        "heading": "Confidencialidad Absoluta",
+        "body": "Tu identidad y todo el expediente se protegen con estricta reserva desde la denuncia inicial.",
+        "tag": "RESERVA TOTAL",
+        "metric_or_badge": "100% CONFIDENCIAL",
+        "footer_label": "Reserva de Identidad",
+        "icon_concept": "lock_privacy_user"
+      },
+      {
+        "heading": "Cero Represalias",
+        "body": "Nadie puede despedirte, rebajar tu categoría ni hostilizarte por denunciar o declarar como testigo.",
+        "tag": "CERO REPRESALIAS",
+        "metric_or_badge": "NULIDAD DESPIDO",
+        "footer_label": "Blindaje a Víctima y Testigos",
+        "icon_concept": "umbrella_protection_check"
+      },
+      {
+        "heading": "Asistencia Psicológica",
+        "body": "Recibe orientación y canales de atención médica y psicológica dentro del primer día hábil.",
+        "tag": "SOPORTE INTEGRAL",
+        "metric_or_badge": "≤ 1 DÍA HÁBIL",
+        "footer_label": "Art. 17 D.S. 014-2019-MIMP",
+        "icon_concept": "heart_care_cross"
+      },
+      {
+        "heading": "Derechos Intactos",
+        "body": "Ninguna medida de protección puede afectar tu sueldo, puesto ni condiciones laborales como víctima.",
+        "tag": "TRATO DIGNO",
+        "metric_or_badge": "NO REVICTIMIZACIÓN",
+        "footer_label": "Garantía de Indemnidad",
+        "icon_concept": "user_respect_star"
+      }
+    ],
+    "highlight_box": {
+      "label": "¿SABÍAS QUE...?",
+      "title": "Testigos y denunciantes tienen igual protección legal",
+      "text": "Quienes declaren o aporten pruebas como testigos están legalmente protegidos contra cualquier represalia o acto de hostilidad laboral.",
+      "body": "Quienes declaren o aporten pruebas como testigos están legalmente protegidos contra cualquier represalia o acto de hostilidad laboral.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "D. Leg. N° 1410 • Art. 17, 18 y 20 D.S. N° 014-2019-MIMP"
+    },
+    "cta_footer": "Tu voz está protegida por ley. Conoce tus derechos en la Plataforma ALIADA."
+  },
+  {
+    "id": "06",
+    "slug": "flyer_06_rol_del_comite_de_intervencion",
+    "filename": "flyer_06_rol_del_comite_de_intervencion.png",
+    "category_badge": "ÓRGANO INVESTIGADOR • ART. 27 D.S. 014-2019-MIMP",
+    "title": "El Rol del Comité de Intervención Frente al HSL",
+    "subtitle": "Un órgano paritario, neutral y confidencial al servicio del personal",
+    "key_concept": "El Comité recibe e investiga denuncias con imparcialidad, coordina protección urgente y emite informes confidenciales.",
+    "infographic_type": "committee_hub",
+    "sections": [
+      {
+        "heading": "Composición Paritaria",
+        "body": "Integrado por cuatro miembros con equidad de género: dos de ELECTROPERU y dos de trabajadores.",
+        "tag": "4 MIEMBROS",
+        "metric_or_badge": "2 + 2 PARITARIO",
+        "footer_label": "Paridad de Género Garantizada",
+        "icon_concept": "people_balance_group"
+      },
+      {
+        "heading": "Investigación Imparcial",
+        "body": "Evalúa pruebas y toma declaraciones sin revictimizar, respetando el debido proceso de ambas partes.",
+        "tag": "IMPARCIALIDAD",
+        "metric_or_badge": "DEBIDO PROCESO",
+        "footer_label": "Neutralidad y Enfoque de Género",
+        "icon_concept": "magnifying_glass_document"
+      },
+      {
+        "heading": "Informe en 15 Días",
+        "body": "Emite su informe con conclusiones y propuesta de sanción en máximo quince días calendario.",
+        "tag": "PLAZO: 15 DÍAS",
+        "metric_or_badge": "≤ 15 DÍAS CAL.",
+        "footer_label": "Informe Motivado Vinculante",
+        "icon_concept": "file_check_timer"
+      },
+      {
+        "heading": "Prevención y Seguimiento",
+        "body": "Recibe capacitación especializada anual, impulsa campañas preventivas y vigila que se cumplan las protecciones.",
+        "tag": "ACOMPAÑAMIENTO",
+        "metric_or_badge": "ROL PREVENTIVO",
+        "footer_label": "Seguimiento Continuo de Casos",
+        "icon_concept": "compass_support_hands"
+      }
+    ],
+    "highlight_box": {
+      "label": "DATO CLAVE NORMATIVO",
+      "title": "Objetividad garantizada en cada investigación",
+      "text": "Si algún integrante del Comité tiene conflicto de interés, se inhibe de inmediato y asume un miembro suplente.",
+      "body": "Si algún integrante del Comité tiene conflicto de interés, se inhibe de inmediato y asume un miembro suplente.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Ley N° 27942 • Art. 27 y 28 D.S. N° 014-2019-MIMP"
+    },
+    "cta_footer": "Confía en tu Comité de Intervención. Revisa sus funciones escaneando el código QR."
+  },
+  {
+    "id": "07",
+    "slug": "flyer_07_flujograma_y_pasos_denuncia",
+    "filename": "flyer_07_flujograma_y_pasos_denuncia.png",
+    "category_badge": "RUTA DE ATENCIÓN • PLATAFORMA ALIADA SUNAFIL",
+    "title": "Pasos y Plazos para Presentar una Denuncia",
+    "subtitle": "Ruta clara, confidencial y rápida para actuar frente al hostigamiento",
+    "key_concept": "El procedimiento interno te protege desde el primer día y resuelve en máximo treinta días.",
+    "infographic_type": "step_by_step_channels",
+    "sections": [
+      {
+        "heading": "Paso 1: Denuncia",
+        "body": "Preséntala de forma verbal, escrita o digital ante Gestión Humana o directamente ante el Comité.",
+        "tag": "DÍA 0 • INICIO",
+        "metric_or_badge": "ETAPA 1 • DÍA 0",
+        "footer_label": "Verbal, Escrita o De Oficio",
+        "icon_concept": "inbox_document_send"
+      },
+      {
+        "heading": "Paso 2: Protección",
+        "body": "En un día hábil se activa atención médica y en tres días medidas de protección.",
+        "tag": "1 A 3 DÍAS HÁBILES",
+        "metric_or_badge": "1 A 3 DÍAS HÁB.",
+        "footer_label": "Subgerencia de Gestión Humana",
+        "icon_concept": "shield_fast_clock"
+      },
+      {
+        "heading": "Paso 3: Investigación",
+        "body": "El Comité recibe descargos, evalúa las pruebas y emite su informe en quince días calendario.",
+        "tag": "MÁX. 15 DÍAS CAL.",
+        "metric_or_badge": "≤ 15 DÍAS CAL.",
+        "footer_label": "Comité de Intervención ELP",
+        "icon_concept": "search_folder_scales"
+      },
+      {
+        "heading": "Paso 4: Resolución",
+        "body": "Gestión Humana recibe el informe, escucha alegatos y dicta la sanción final en diez días.",
+        "tag": "MÁX. 10 DÍAS CAL.",
+        "metric_or_badge": "≤ 10 DÍAS CAL.",
+        "footer_label": "Resolución Firme y Sanción",
+        "icon_concept": "stamp_resolution_check"
+      }
+    ],
+    "highlight_box": {
+      "label": "PLAZO LEGAL OBLIGATORIO",
+      "title": "Registro obligatorio ante el MTPE en 6 días hábiles",
+      "text": "ELECTROPERU informa la denuncia, las medidas de protección y la sanción final en la plataforma SIHSL del MTPE.",
+      "body": "ELECTROPERU informa la denuncia, las medidas de protección y la sanción final en la plataforma SIHSL del MTPE.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Art. 29 D.S. N° 014-2019-MIMP • Formato SUNAFIL"
+    },
+    "cta_footer": "Descarga el Formato de Denuncia y el Flujograma oficial en el código QR."
+  },
+  {
+    "id": "08",
+    "slug": "flyer_08_medidas_de_proteccion_inmediata",
+    "filename": "flyer_08_medidas_de_proteccion_inmediata.png",
+    "category_badge": "ACCIÓN URGENTE • PLAZO MÁXIMO 3 DÍAS HÁBILES",
+    "title": "Medidas de Protección Inmediata a la Víctima",
+    "subtitle": "Acciones urgentes para resguardar tu seguridad física y emocional",
+    "key_concept": "En máximo tres días hábiles, Gestión Humana dicta medidas obligatorias para cortar todo contacto de riesgo y protegerte.",
+    "infographic_type": "timeline_plazos",
+    "sections": [
+      {
+        "heading": "Rotación del Denunciado",
+        "body": "Cambio físico de lugar o turno del presunto hostigador para evitar contacto con la víctima.",
+        "tag": "SEPARACIÓN INMEDIATA",
+        "metric_or_badge": "ROTACIÓN INMEDIATA",
+        "footer_label": "Art. 18.2 inc. a) D.S. 014-2019",
+        "icon_concept": "arrows_split_location"
+      },
+      {
+        "heading": "Suspensión Temporal",
+        "body": "Separación preventiva del presunto hostigador de su puesto mientras dura toda la investigación del caso.",
+        "tag": "MEDIDA CAUTELAR",
+        "metric_or_badge": "SUSPENSIÓN PREVENTIVA",
+        "footer_label": "Art. 18.2 inc. b) D.S. 014-2019",
+        "icon_concept": "user_pause_badge"
+      },
+      {
+        "heading": "Orden de Alejamiento",
+        "body": "Prohibición expresa de acercarse o comunicarse con la víctima o su familia por cualquier medio.",
+        "tag": "BARRERA DE CONTACTO",
+        "metric_or_badge": "CERO CONTACTO",
+        "footer_label": "Art. 18.2 inc. d) D.S. 014-2019",
+        "icon_concept": "no_contact_ring"
+      },
+      {
+        "heading": "Protección a Solicitud",
+        "body": "Rotación de la víctima solo si ella lo pide, sin perjudicar jamás sus derechos laborales.",
+        "tag": "A TU SOLICITUD",
+        "metric_or_badge": "DERECHOS INTACTOS",
+        "footer_label": "Art. 18.2 inc. c) D.S. 014-2019",
+        "icon_concept": "hand_heart_calendar"
+      }
+    ],
+    "highlight_box": {
+      "label": "GARANTÍA DE PROTECCIÓN",
+      "title": "Sin perjudicar tus derechos laborales y extensible a testigos",
+      "text": "Ninguna medida perjudica los derechos laborales de la víctima y también pueden dictarse para proteger a los testigos.",
+      "body": "Ninguna medida perjudica los derechos laborales de la víctima y también pueden dictarse para proteger a los testigos.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Ley N° 27942 • Art. 18 D.S. N° 014-2019-MIMP"
+    },
+    "cta_footer": "Tu seguridad no espera. Solicita medidas inmediatas ante Gestión Humana o el Comité."
+  },
+  {
+    "id": "09",
+    "slug": "flyer_09_sanciones_y_consecuencias",
+    "filename": "flyer_09_sanciones_y_consecuencias.png",
+    "category_badge": "TOLERANCIA CERO • LEY N° 27942 & D. LEG. N° 1410",
+    "title": "Sanciones y Consecuencias del Hostigamiento",
+    "subtitle": "En ELECTROPERU aplicamos tolerancia cero: es falta grave y delito",
+    "key_concept": "El hostigamiento sexual comprobado se castiga con sanciones disciplinarias hasta el despido y conlleva pena de cárcel.",
+    "infographic_type": "severity_scale",
+    "sections": [
+      {
+        "heading": "Amonestación Escrita",
+        "body": "Sanción disciplinaria proporcional registrada en el legajo personal del infractor para faltas de primer nivel.",
+        "tag": "REGISTRO EN LEGAJO",
+        "metric_or_badge": "NIVEL 1 • AMONESTACIÓN",
+        "footer_label": "Demérito en Legajo Personal",
+        "icon_concept": "file_warning_mark"
+      },
+      {
+        "heading": "Suspensión sin Goce",
+        "body": "Separación temporal del trabajo sin recibir remuneración durante los días fijados según la gravedad.",
+        "tag": "SUSPENSIÓN LABORAL",
+        "metric_or_badge": "NIVEL 2 • SUSPENSIÓN",
+        "footer_label": "Sin Goce de Haber",
+        "icon_concept": "calendar_ban_alert"
+      },
+      {
+        "heading": "Despido o Destitución",
+        "body": "Extinción definitiva del vínculo laboral por falta grave sin derecho a indemnización alguna por ley.",
+        "tag": "FALTA GRAVE",
+        "metric_or_badge": "NIVEL 3 • DESPIDO",
+        "footer_label": "Art. 25 D.S. N° 003-97-TR",
+        "icon_concept": "gavel_ban_building"
+      },
+      {
+        "heading": "Delito Penal",
+        "body": "El D. Leg. N° 1410 sanciona el acoso y chantaje sexual con pena de cárcel.",
+        "tag": "VÍA PENAL",
+        "metric_or_badge": "ART. 176-B y 176-C CP",
+        "footer_label": "Ministerio Público y Poder Judicial",
+        "icon_concept": "courthouse_alert_scale"
+      }
+    ],
+    "highlight_box": {
+      "label": "MARCO LEGAL PERUANO",
+      "title": "Falta laboral muy grave y delito penal",
+      "text": "Además del despido o destitución, el hostigamiento sexual acarrea denuncia penal y multas muy graves ante la SUNAFIL.",
+      "body": "Además del despido o destitución, el hostigamiento sexual acarrea denuncia penal y multas muy graves ante la SUNAFIL.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Ley N° 27942 • D. Leg. N° 1410 • Art. 25 D.S. 003-97-TR"
+    },
+    "cta_footer": "Cero impunidad frente al hostigamiento sexual. Consulta el régimen sancionador en el QR."
+  },
+  {
+    "id": "10",
+    "slug": "flyer_10_canales_ayuda_y_plataforma_aliada",
+    "filename": "flyer_10_canales_ayuda_y_plataforma_aliada.png",
+    "category_badge": "DIRECTORIO Y RECURSOS • LIMA, MANTARO Y TUMBES",
+    "title": "Canales de Ayuda y Plataforma ALIADA",
+    "subtitle": "Puntos de contacto seguro y formatos oficiales a tu alcance",
+    "key_concept": "En Lima, Mantaro y Tumbes cuentas con canales internos confidenciales, la Línea 1819 y la Plataforma ALIADA.",
+    "infographic_type": "culture_manifesto",
+    "sections": [
+      {
+        "heading": "Canales ELECTROPERU",
+        "body": "Acude con total reserva a la Subgerencia de Gestión Humana o al Comité de Intervención.",
+        "tag": "LIMA • MANTARO • TUMBES",
+        "metric_or_badge": "3 SEDES ACTIVAS",
+        "footer_label": "Subgerencia de Gestión Humana",
+        "icon_concept": "headset_building_shield"
+      },
+      {
+        "heading": "Plataforma ALIADA",
+        "body": "Descarga formatos de denuncia, flujogramas oficiales y guías preventivas en el portal web de SUNAFIL.",
+        "tag": "ALIADA.SUNAFIL.GOB.PE",
+        "metric_or_badge": "PORTAL SUNAFIL",
+        "footer_label": "Formatos y Evaluación Anual",
+        "icon_concept": "laptop_globe_verified"
+      },
+      {
+        "heading": "Línea Gratuita 1819",
+        "body": "Llama gratis al servicio Trabaja Sin Acoso del MTPE para recibir orientación legal y psicológica.",
+        "tag": "LÍNEA GRATUITA 1819",
+        "metric_or_badge": "LÍNEA 1819 MTPE",
+        "footer_label": "Orientación Legal y Psicológica",
+        "icon_concept": "phone_lifebuoy_support"
+      },
+      {
+        "heading": "Normativa en QR",
+        "body": "Escanea el código QR para leer la Ley N° 27942, D. Leg. 1410 y reglamento.",
+        "tag": "QR NORMATIVO OFICIAL",
+        "metric_or_badge": "ACCESO DIRECTO QR",
+        "footer_label": "Compendio Legal Actualizado",
+        "icon_concept": "qr_code_book_law"
+      }
+    ],
+    "highlight_box": {
+      "label": "ENLACES OFICIALES Y QR",
+      "title": "Ayuda inmediata en Lima, Mantaro y Tumbes",
+      "text": "Ingresa a aliada.sunafil.gob.pe, llama gratis a la Línea 1819 o contacta hoy a la Subgerencia de Gestión Humana.",
+      "body": "Ingresa a aliada.sunafil.gob.pe, llama gratis a la Línea 1819 o contacta hoy a la Subgerencia de Gestión Humana.",
+      "normative_link": "https://aliada.sunafil.gob.pe",
+      "law_reference": "Ley N° 27942 • D. Leg. N° 1410 • D.S. N° 014-2019-MIMP"
+    },
+    "cta_footer": "Construyamos juntos un ELECTROPERU S.A. seguro y respetuoso. ¡Escanea el QR y comparte!"
+  }
+]

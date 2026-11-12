@@ -1,0 +1,322 @@
+{
+  "$schema": "https://trd-electroperu.internal/schemas/style-tokens-v3.json",
+  "version": "3.0.0",
+  "meta": {
+    "brand": "ELECTROPERU S.A.",
+    "tagline": "la energía de los peruanos",
+    "institutional_quote": "Contribuimos al desarrollo del país, generando energía renovable a través de la Central Hidroeléctrica del Mantaro, la más grande del país",
+    "website": "www.gob.pe/electroperu",
+    "holding": "FONAFE - Corporación FONAFE",
+    "brand_manual_source": "/home/laptop/Documentos/TRD_serviciocapa/identidad visual/Guia de Identidad Corporativo de ELECTROPERU.pdf",
+    "tdr_document_source": "TDR_Servicio Capacitación y Sensibilización Prevención del HSL para 3 sedes ELP[R][R][R].pdf",
+    "user_area": "Subgerencia de Gestión Humana",
+    "target_sedes": [
+      "Lima",
+      "Mantaro",
+      "Tumbes"
+    ],
+    "committee": "Comité de Intervención Frente al Hostigamiento Sexual (CIFHS)",
+    "canvas_format": {
+      "aspect_ratio": "9:16",
+      "width_px": 1080,
+      "height_px": 1920,
+      "dpi": 300,
+      "color_space": "sRGB"
+    }
+  },
+  "assets": {
+    "logo_primary_v3": "/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/assets/logo_electroperu_oficial_v3.png",
+    "logo_primary_v2": "/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/assets/logo_electroperu_v2.png",
+    "logo_primary": "/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/assets/logo_electroperu.png",
+    "logo_seal_signature": "/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/assets/logo_electroperu_sello.png",
+    "manual_colors_typography_ref": "/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/assets/manual_marca_colores_tipografia.png",
+    "manual_logo_rules_ref": "/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/assets/manual_marca_logotipo_reglas.png",
+    "manual_applications_ref": "/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/assets/manual_marca_aplicaciones.png"
+  },
+  "logo_specifications": {
+    "corrected_master_v3": {
+      "path": "/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/assets/logo_electroperu_oficial_v3.png",
+      "canvas_width_px": 860,
+      "canvas_height_px": 586,
+      "canvas_aspect_ratio": 1.467577,
+      "canvas_aspect_ratio_css": "860 / 586",
+      "visible_width_px": 812,
+      "visible_height_px": 538,
+      "visible_aspect_ratio": 1.509294,
+      "visible_aspect_ratio_target_manual_p7": 1.5087,
+      "isotipo_visible_width_px": 387,
+      "isotipo_visible_height_px": 305,
+      "isotipo_aspect_ratio": 1.268852,
+      "isotipo_aspect_ratio_target_manual_p7": 1.2676,
+      "symmetrical_margin_px": {
+        "top": 24,
+        "bottom": 24,
+        "left": 24,
+        "right": 24
+      },
+      "mode": "RGBA"
+    },
+    "manual_rules": {
+      "composition": "Tres elementos inseparables: isotipo (esfera energética con 'e' y anillos orbitales, proporción w/h = 1.27:1) + tipografía ('electroperu') + slogan ('la energía de los peruanos'). Proporción visible total w/h = 1.51:1 (Sección 1.2 Pág. 7 y Sección 1.5 Pág. 10).",
+      "clear_space_rule": "Área de reserva equivalente a 1 vez la altura/ancho de la letra 'e' de 'electroperu' por los 4 lados (Sección 1.2, Pág. 7). Ya incluye 24px de margen simétrico interno para proteger la 'u' de electroperu y la 's' de peruanos.",
+      "strict_anti_distortion": "PROHIBIDO DEFORMAR EL LOGO (Sección 2.6, Pág. 25). En HTML/CSS usar siempre `height: auto; aspect-ratio: 860 / 586; object-fit: contain;` sobre `logo_electroperu_oficial_v3.png`.",
+      "background_application_rule": "Cuando se coloque el logotipo a color sobre fondos oscuros, azules o fotografías, DEBE ir sobre una pastilla blanca (#FFFFFF) delimitada por su área de respeto (Sección 2.5, Pág. 24).",
+      "recommended_9x16_sizes": {
+        "header_standard": {
+          "width_px": 198,
+          "height_px": 135
+        },
+        "header_compact": {
+          "width_px": 176,
+          "height_px": 120
+        },
+        "footer_signature": {
+          "width_px": 150,
+          "height_px": 102
+        }
+      }
+    }
+  },
+  "color_palette": {
+    "official_corporate_colors_manual_p16": {
+      "azul_corporativo": {
+        "pantone": "PANTONE 286 PC",
+        "cmyk": "C=100 M=66 Y=0 K=2",
+        "rgb": "rgb(0, 89, 159)",
+        "hex": "#00559F",
+        "role": "Color principal de identidad corporativa ('electro', isotipo y bloques primarios)"
+      },
+      "celeste_corporativo": {
+        "pantone": "PANTONE 298 PC",
+        "cmyk": "C=69 M=7 Y=0 K=0",
+        "rgb": "rgb(66, 182, 225)",
+        "hex": "#34B4E4",
+        "role": "Color secundario energético (iluminación del isotipo, acentos activos, iconos, franjas dinámicas)"
+      },
+      "gris_corporativo": {
+        "pantone": "COOL GRAY 10PC",
+        "cmyk": "C=0 M=0 Y=0 K=57",
+        "rgb": "rgb(131, 138, 137)",
+        "hex": "#868689",
+        "role": "Color neutro corporativo ('peru', bordes sutiles; no usar en textos pequeños sobre blanco)"
+      },
+      "negro_corporativo": {
+        "pantone": "PANTONE PROCESS BLACK",
+        "cmyk": "C=0 M=0 Y=0 K=100",
+        "rgb": "rgb(0, 0, 0)",
+        "hex": "#1A171B",
+        "role": "Color de lema ('la energía de los peruanos') y texto de cuerpo de alto contraste sobre fondo claro"
+      }
+    },
+    "official_complementary_colors_manual_p17": {
+      "usage_note": "Definidos en la Sección 1.9 (Pág. 17) del Manual específicamente para folletos, dípticos, flyers y banners.",
+      "azul_marino_profundo": {
+        "pantone": "PANTONE P 108-8C (Dark)",
+        "cmyk": "C=100 M=52 Y=0 K=50",
+        "rgb": "rgb(0, 63, 112)",
+        "hex": "#003F70",
+        "role": "Fondos corporativos profundos, cabeceras de alto contraste y bloques de autoridad normativa"
+      },
+      "azul_medio_editorial": {
+        "pantone": "PANTONE P 104-7C",
+        "cmyk": "C=85 M=58 Y=0 K=0",
+        "rgb": "rgb(45, 108, 181)",
+        "hex": "#2D6CB5",
+        "role": "Tarjetas destacadas, encabezados secundarios y contenedores modulares"
+      },
+      "azul_acero_claro": {
+        "pantone": "PANTONE P 108-8C (Light)",
+        "cmyk": "C=53 M=26 Y=0 K=0",
+        "rgb": "rgb(118, 164, 215)",
+        "hex": "#76A4D7",
+        "role": "Bandas secundarias escalonadas (estilo tarjeta corporativa Pág. 30), bordes activos y badges"
+      },
+      "azul_hielo_suave": {
+        "pantone": "PANTONE P 109-2C",
+        "cmyk": "C=21 M=7 Y=0 K=0",
+        "rgb": "rgb(196, 218, 241)",
+        "hex": "#C4DAF1",
+        "role": "Fondos de tarjetas claras, paneles informativos suaves y pastillas de lectura descansada"
+      }
+    },
+    "primary": {
+      "electro_deep_900": "#003F70",
+      "electro_blue_800": "#00559F",
+      "electro_medium_700": "#2D6CB5",
+      "electro_cyan_500": "#34B4E4"
+    },
+    "secondary": {
+      "electro_steel_400": "#76A4D7",
+      "electro_ice_200": "#C4DAF1",
+      "electro_ice_100": "#EBF3FA",
+      "corporate_gray_500": "#868689",
+      "corporate_black_900": "#1A171B"
+    },
+    "semantic_accents": {
+      "prevencion": {
+        "primary": "#00559F",
+        "accent": "#34B4E4",
+        "light_bg": "#EBF3FA",
+        "card_tint": "#C4DAF1",
+        "border": "#76A4D7",
+        "badge_text": "#003F70"
+      },
+      "alerta": {
+        "warning_amber": "#FFC000",
+        "warning_amber_dark": "#B45309",
+        "warning_light_bg": "#FFFBEB",
+        "danger_red": "#DC2626",
+        "danger_pdf_exact": "#FF0000",
+        "danger_light_bg": "#FEF2F2"
+      },
+      "canales": {
+        "primary": "#003F70",
+        "highlight_cyan": "#34B4E4",
+        "secondary_blue": "#2D6CB5",
+        "surface_tint": "#E6F6FC"
+      },
+      "positivo": {
+        "primary": "#0D9488",
+        "vibrant": "#10B981",
+        "light_bg": "#ECFDF5",
+        "border": "#6EE7B7"
+      }
+    },
+    "backgrounds": {
+      "dark_corporate": {
+        "canvas_deep": "#002B4D",
+        "canvas_navy": "#003F70",
+        "surface_card": "#004B87",
+        "surface_elevated": "#00559F",
+        "gradient_hero": "linear-gradient(155deg, #002B4D 0%, #003F70 45%, #00559F 85%, #2D6CB5 100%)",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#C4DAF1",
+        "border_subtle": "rgba(52, 180, 228, 0.32)"
+      },
+      "light_corporate": {
+        "canvas_pure": "#FFFFFF",
+        "canvas_offwhite": "#F4F8FC",
+        "canvas_ice": "#C4DAF1",
+        "surface_card": "#FFFFFF",
+        "surface_muted": "#EBF3FA",
+        "gradient_clean": "linear-gradient(180deg, #F4F8FC 0%, #FFFFFF 40%, #EBF3FA 100%)",
+        "text_primary": "#003F70",
+        "text_heading": "#00559F",
+        "text_body": "#1A171B",
+        "text_secondary": "#2D3748",
+        "border_subtle": "#C4DAF1",
+        "border_strong": "#00559F"
+      }
+    }
+  },
+  "typography_9x16": {
+    "manual_directives": {
+      "strict_font_unification_v3": "Se eliminan por completo fuentes condensadas o monoespaciadas. Toda la pieza utiliza exclusivamente la familia humanista redondeada abierta `'Nunito', 'Plus Jakarta Sans', sans-serif`, homologada directamente a la tipografía oficial **BARIOL** de la Página 14 (Sección 1.7.2) de la Guía de Identidad Corporativa de ELECTROPERU S.A.",
+      "minimum_font_size_px": 16,
+      "minimum_font_size_rule": "PROHIBIDO cualquier texto menor a 16px en el lienzo de 1080x1920 px para garantizar lectura inmediata en pantallas móviles (WhatsApp) en menos de 6 segundos sin hacer zoom."
+    },
+    "font_families": {
+      "primary": "'Nunito', 'Plus Jakarta Sans', sans-serif",
+      "display": "'Nunito', 'Plus Jakarta Sans', sans-serif",
+      "sans_body": "'Nunito', 'Plus Jakarta Sans', sans-serif"
+    },
+    "scale_px": {
+      "super_display": {
+        "font_size_px": 64,
+        "line_height": 1.08,
+        "letter_spacing": "-0.015em",
+        "font_weight": 800,
+        "usage": "Titular de impacto principal en Hero Banner (máx. 2 a 3 líneas)"
+      },
+      "h1_hero": {
+        "font_size_px": 52,
+        "line_height": 1.1,
+        "letter_spacing": "-0.015em",
+        "font_weight": 800,
+        "usage": "Título principal de infografía 9:16"
+      },
+      "h2_section": {
+        "font_size_px": 36,
+        "line_height": 1.18,
+        "letter_spacing": "-0.01em",
+        "font_weight": 800,
+        "usage": "Encabezados de sección o bloque central"
+      },
+      "h3_card_title": {
+        "font_size_px": 28,
+        "line_height": 1.22,
+        "letter_spacing": "-0.005em",
+        "font_weight": 800,
+        "usage": "Títulos de tarjetas principales y pasos de protocolo"
+      },
+      "hero_key_phrase": {
+        "font_size_px": 24,
+        "line_height": 1.32,
+        "letter_spacing": "0em",
+        "font_weight": 700,
+        "usage": "Frase fuerza / idea central en Hero Banner (máx. 12–15 palabras)"
+      },
+      "body_large": {
+        "font_size_px": 22,
+        "line_height": 1.38,
+        "letter_spacing": "0em",
+        "font_weight": 600,
+        "usage": "Texto de tarjetas y definiciones clave (12 a 15 palabras por tarjeta)"
+      },
+      "body_standard": {
+        "font_size_px": 20,
+        "line_height": 1.38,
+        "letter_spacing": "0em",
+        "font_weight": 500,
+        "usage": "Descripciones de apoyo, bloques de acción y llamadas al pie"
+      },
+      "badge_pill": {
+        "font_size_px": 18,
+        "line_height": 1.2,
+        "letter_spacing": "0.02em",
+        "font_weight": 800,
+        "usage": "Píldoras de numeración, etapas y etiquetas de categoría"
+      },
+      "minimum_caption": {
+        "font_size_px": 16,
+        "line_height": 1.3,
+        "letter_spacing": "0.01em",
+        "font_weight": 700,
+        "usage": "Umbral mínimo absoluto de texto en toda la lámina (pie institucional, URL QR, etiquetas secundarias)"
+      }
+    }
+  },
+  "layout_9x16": {
+    "canvas": {
+      "width_px": 1080,
+      "height_px": 1920,
+      "safe_margins_px": {
+        "top": 48,
+        "bottom": 48,
+        "left": 56,
+        "right": 56
+      },
+      "usable_content_area_px": {
+        "width": 968,
+        "height": 1824
+      },
+      "minimum_whitespace_ratio": "25%",
+      "grid_system": {
+        "columns": 12,
+        "gutter_px": 24,
+        "card_gap_px": 24,
+        "section_gap_px": 28,
+        "border_radius_card_px": 24,
+        "border_radius_pill_px": 999
+      }
+    },
+    "v3_pedagogical_architecture": {
+      "reading_time_target_seconds": "5 a 8 segundos en pantalla móvil sin zoom",
+      "max_visual_floors": 4,
+      "floor_1_clean_header": "Logo Oficial ELECTROPERU S.A. (`logo_electroperu_oficial_v3.png`, proporción visible 1.51:1) a la izquierda + Subgerencia de Gestión Humana y Sedes (Lima • Mantaro • Tumbes) al centro + 1 único badge limpio `FLYER XX/10` a la derecha (sin cajetines burocráticos PR3-R3/POI).",
+      "floor_2_impact_hero": "Título H1 grande (48-54px) + 1 Frase Fuerza directa (22-24px, máx. 15 palabras).",
+      "floor_3_single_protagonist_body": "Un único cuerpo visual protagonista (sin duplicar diagrama superior + tarjetas inferiores con el mismo texto). Tarjetas amplias con ícono grande (56-64px), 1 badge corto, título de 26-28px y texto directo de 20-22px (máx. 15 palabras).",
+      "floor_4_action_footer_and_qr": "Cierre accionable con Dato Clave breve (18-20px) + QR grande (128x128px) con leyenda legible (>=16px) + Franja corporativa bicolor escalonada única (#00559F / #34B4E4)."
+    }
+  }
+}
