@@ -1,6 +1,6 @@
-# CONTEXTO DEL PROYECTO: FLYERS INFOGRÁFICOS HSL - ELECTROPERU S.A. (v3.0 FINAL)
+# CONTEXTO DEL PROYECTO: FLYERS INFOGRÁFICOS HSL - ELECTROPERU S.A. (v3.1 FINAL + PPTX EDITABLE + WEB v2.2)
 
-> **Propósito de este documento:** Este archivo permite a cualquier agente de IA o desarrollador retomar el trabajo exactamente en el punto donde se dejó, comprendiendo el contexto institucional, los insumos base, la evolución a través de las **3 iteraciones** (`v1`, `v2` y `v3` definitiva), el diagnóstico pedagógico (`DIAGNOSTICO_PEDAGOGICO_V3.md`), los estándares técnicos y la ubicación de todos los entregables.
+> **Propósito de este documento:** Este archivo permite a cualquier agente de IA o desarrollador retomar el trabajo exactamente en el punto donde se dejó, comprendiendo el contexto institucional, los insumos base, la evolución a través de las **iteraciones hasta la v3.1 definitiva (con PPTX editable y QRs HTTP 200)** y la **Web Interactiva v2.2**, los estándares técnicos y la ubicación de todos los entregables.
 
 ---
 
@@ -58,25 +58,27 @@ Ruta base: `/home/laptop/Documentos/TRD_serviciocapa/`
     ├── content/                                                  # Base de redacción pedagógica descontaminada
     │   └── flyers_data.json                                      # Textos v3.0 claros, humanos y rigurosos (Ley 27942 + D. Leg. 1410)
     │
-    ├── templates/                                                # Motor técnico de generación v3.0
-    │   ├── generate_flyers.js                                    # Generador de plantillas HTML/CSS v3.0 descontaminadas
+    ├── templates/                                                # Motor técnico de generación v3.1 (PNG + PPTX)
+    │   ├── generate_flyers.js                                    # Generador de plantillas HTML/CSS v3.1
+    │   ├── generate_editable_pptx.py                             # Generador del PPTX nativo editable (589 cuadros de texto)
     │   ├── icons_and_diagrams.js                                 # Diagramas vectoriales SVG e iconos duotono
-    │   ├── qr_matrices.json                                      # Matrices ISO para códigos QR vectoriales
+    │   ├── qr_matrices.json                                      # Matrices QR ERROR_CORRECT_H hacia URLs Gob.pe HTTP 200
     │   ├── render_and_verify.js                                  # Script de renderizado headless con Chrome
     │   ├── verify_images.py                                      # Script de verificación dimensional
-    │   └── flyer_01_*.html ... flyer_10_*.html                   # 10 plantillas HTML v3.0 compiladas
+    │   └── flyer_01_*.html ... flyer_10_*.html                   # 10 plantillas HTML v3.1 compiladas
     │
-    ├── dist/                                                     # ENTREGABLES FINALES DEFINITIVOS v3.0 (1080x1920 px)
-    │   ├── flyer_01_que_es_el_hsl.png                            # Flyer 01 v3.0 (Aprobado 100/100)
-    │   ├── flyer_02_manifestaciones_y_conductas.png              # Flyer 02 v3.0 (Aprobado 100/100)
-    │   ├── flyer_03_principio_autoridad_y_entorno.png            # Flyer 03 v3.0 (Aprobado 100/100)
-    │   ├── flyer_04_obligaciones_del_empleador.png               # Flyer 04 v3.0 (Aprobado 100/100)
-    │   ├── flyer_05_derechos_de_los_trabajadores.png             # Flyer 05 v3.0 (Aprobado 100/100)
-    │   ├── flyer_06_rol_del_comite_de_intervencion.png           # Flyer 06 v3.0 (Aprobado 100/100)
-    │   ├── flyer_07_flujograma_y_pasos_denuncia.png              # Flyer 07 v3.0 (Aprobado 100/100)
-    │   ├── flyer_08_medidas_de_proteccion_inmediata.png          # Flyer 08 v3.0 (Aprobado 100/100)
-    │   ├── flyer_09_sanciones_y_consecuencias.png                # Flyer 09 v3.0 (Aprobado 100/100)
-    │   └── flyer_10_canales_ayuda_y_plataforma_aliada.png       # Flyer 10 v3.0 (Aprobado 100/100)
+    ├── dist/                                                     # ENTREGABLES FINALES DEFINITIVOS v3.1 (1080x1920 px + PPTX)
+    │   ├── Campana_HSL_ELECTROPERU_Editable.pptx                 # Presentación editable nativa (203 KB, 10 slides 7.5x13.333 in, 589 textos)
+    │   ├── flyer_01_que_es_el_hsl.png                            # Flyer 01 v3.1 (Aprobado 100/100)
+    │   ├── flyer_02_manifestaciones_y_conductas.png              # Flyer 02 v3.1 (Aprobado 100/100)
+    │   ├── flyer_03_principio_autoridad_y_entorno.png            # Flyer 03 v3.1 (Aprobado 100/100)
+    │   ├── flyer_04_obligaciones_del_empleador.png               # Flyer 04 v3.1 (Aprobado 100/100)
+    │   ├── flyer_05_derechos_de_los_trabajadores.png             # Flyer 05 v3.1 (Aprobado 100/100)
+    │   ├── flyer_06_rol_del_comite_de_intervencion.png           # Flyer 06 v3.1 (Aprobado 100/100)
+    │   ├── flyer_07_flujograma_y_pasos_denuncia.png              # Flyer 07 v3.1 con QR formato denuncia ELECTROPERU (Aprobado 100/100)
+    │   ├── flyer_08_medidas_de_proteccion_inmediata.png          # Flyer 08 v3.1 (Aprobado 100/100)
+    │   ├── flyer_09_sanciones_y_consecuencias.png                # Flyer 09 v3.1 (Aprobado 100/100)
+    │   └── flyer_10_canales_ayuda_y_plataforma_aliada.png       # Flyer 10 v3.1 con doble QR HTTP 200 (Aprobado 100/100)
     │
     ├── dist_v2/                                                  # RESPALDO HISTÓRICO ITERACIÓN 2.0 (10 PNG v2)
     │   └── flyer_01_*.png ... flyer_10_*.png
@@ -139,6 +141,16 @@ Además de las 10 láminas PNG estáticas en formato 9:16, se construyó, audit�
 3. **Responsividad Móvil y Estética (`web_visual_auditor_agent`):**
    - Corrección de `.flyer-qr-pair` en grilla de 2 columnas sin recortes en `360×800` y `390×844`, toolbar móvil simétrica de 2 filas, modales con `100dvh` sin cortes inferiores, `white-space: nowrap` en `.flyer-counter` y estilo *glassmorphism* oscuro en modo `:fullscreen`.
    - Verificado con Playwright Chromium (`PASS` en `360×800`, `390×844`, `768×1024` y `1440×900`, `0` errores de consola, `0` 404, `0` overflow), elevando el puntaje visual de `8.3/10` a **`9.3/10`**.
+4. **Actualización V3.1 y Web v2.2 (Fase 8 — Observaciones del Cliente, PPTX Editable y QRs HTTP 200):**
+   - **Cabecera y Pie Institucional:** Eliminada la leyenda superior `"SUBGERENCIA DE GESTIÓN HUMANA • COMITÉ CIFHS"` y el pie `"ELECTROPERU S.A. — La energía de los peruanos"`, ubicando en la parte inferior derecha **Subgerencia de Gestión Humana** (`#003F70`) y **Gerencia de Administración y Finanzas** (`#0066B3` sobre fondo claro `#E6F6FC` / `#D8EAFA`).
+   - **Ajustes Específicos de Contenido:**
+     - **Flyer 03:** Alcance ampliado (`"... o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa"`).
+     - **Flyer 04:** Nombre completo `"Comité de Intervención Frente al Hostigamiento Sexual"`.
+     - **Flyer 07:** Referencia y QR directo al formato de denuncia en el portal oficial de ELECTROPERU (`https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa`).
+     - **Global:** Reemplazo transversal de `"Gestión Humana"` aislado por `"Subgerencia de Gestión Humana"`.
+   - **QRs Verificados con `jsQR` (11/11 PASS + HTTP 200):** Reemplazo de URLs caídas/404 por enlaces oficiales activos de Gob.pe (`sunafil/campañas/143346-...`, `mimp/normas-legales/285411-014-2019-mimp` y `electroperu/campañas/40531-...`), regenerados con `ERROR_CORRECT_H` sin recuadros centrales obstructivos.
+   - **Entregable PPTX Editable:** Generado `flyers_hsl/dist/Campana_HSL_ELECTROPERU_Editable.pptx` (`203 KB`, 10 slides `7.5×13.333 in`, `589` cuadros de texto editables nativos) mediante `flyers_hsl/templates/generate_editable_pptx.py`.
+   - **Certificación Final Web v2.2:** `web_qa_tester_agent` **`8/8 PASS`**, `web_visual_auditor_agent` **`9.7 / 10`**, redesplegado en Vercel (`https://electroperu-hsl-interactivo.vercel.app`) y sincronizado con `git push` a GitHub (`electroperu-hsl-interactivo`).
 
 ### Funcionalidades Clave de la Web Interactiva:
 1. **Catálogo Interactivo de los 10 Flyers:** Filtrado por categorías preventivas/normativas, búsqueda en tiempo real y vista en tarjetas con réplica HTML interactiva (incluyendo grilla `1fr` optimizada para el Flyer 03 y doble botón `ALIADA SUNAFIL ↗` + `LEY N° 27942 ↗` en el Flyer 10).
@@ -202,4 +214,9 @@ Además de las 10 láminas PNG estáticas en formato 9:16, se construyó, audit�
    ```bash
    cd /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/templates
    python3 verify_images.py
+   ```
+5. **Regenerar la presentación PowerPoint 100% editable (`.pptx`):**
+   ```bash
+   cd /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/templates
+   python3 generate_editable_pptx.py
    ```

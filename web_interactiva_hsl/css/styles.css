@@ -1268,9 +1268,11 @@ a {
 /* Cinta Bicolor Escalonada Inferior Oficial */
 .flyer-ribbon-bottom {
   position: relative;
-  background: var(--elp-navy);
-  color: var(--surface-white);
-  padding: 16px 28px 14px;
+  background-color: #D8EAFA;
+  background: linear-gradient(90deg, #E8F2FC 0%, #D8EAFA 100%);
+  color: var(--elp-navy);
+  border-top: 1px solid var(--elp-steel);
+  padding: 18px 28px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1299,20 +1301,43 @@ a {
 .flyer-footer-brand {
   font-size: 0.84rem;
   font-weight: 800;
-  color: var(--elp-ice);
+  color: var(--elp-navy);
 }
 
 .flyer-footer-url {
   font-size: 0.86rem;
   font-weight: 900;
-  color: var(--elp-cyan);
+  color: var(--elp-navy);
   text-decoration: none;
   letter-spacing: 0.02em;
 }
 
 .flyer-footer-url:hover {
   text-decoration: underline;
-  color: var(--surface-white);
+  color: var(--elp-blue);
+}
+
+.flyer-footer-org {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: right;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.flyer-footer-subgerencia {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #003F70;
+  line-height: 1.25;
+}
+
+.flyer-footer-gerencia {
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #0066B3;
+  line-height: 1.25;
 }
 
 /* ==========================================================================
@@ -1986,6 +2011,18 @@ a {
     line-height: 1.25;
     max-width: 185px;
     padding: 6px 10px;
+  }
+
+  .flyer-ribbon-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px 18px 14px;
+  }
+
+  .flyer-footer-org {
+    text-align: left;
+    width: 100%;
   }
 
   .modal-dialog {

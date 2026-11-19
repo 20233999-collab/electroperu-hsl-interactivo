@@ -1,0 +1,180 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - img "ELECTROPERU S.A." [ref=f1e6]
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]: LEY N° 27942 • D. LEG. N° 1410 • LIMA, MANTARO Y TUMBES
+          - heading "Campaña Interactiva de Prevención del HSL" [level=1] [ref=f1e9]
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]:
+          - generic [ref=f1e12]: "Sede:"
+          - combobox "Seleccionar sede de ELECTROPERU S.A." [ref=f1e13] [cursor=pointer]:
+            - option "Todas las Sedes" [selected]
+            - option "Lima"
+            - option "Mantaro"
+            - option "Tumbes"
+        - button "Quiz de Repaso" [ref=f1e14] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e15]: ✓
+  - main [ref=f1e17]:
+    - complementary "Navegación de temas de la campaña" [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - generic [ref=f1e21]: Tu avance en la campaña
+          - generic [ref=f1e22]: 4 / 10 vistos
+        - progressbar [ref=f1e23]
+      - searchbox "Buscar tema de la campaña" [ref=f1e26]
+      - navigation "Temas del 01 al 10" [ref=f1e27]:
+        - list [ref=f1e28]:
+          - listitem [ref=f1e29]:
+            - button "01 ¿Qué es el Hostigamiento Sexual Laboral? ✓ Visto" [ref=f1e224] [cursor=pointer]:
+              - generic [ref=f1e31]: "01"
+              - generic [ref=f1e32]: ¿Qué es el Hostigamiento Sexual Laboral?
+              - generic [ref=f1e33]: ✓ Visto
+          - listitem [ref=f1e34]:
+            - button "02 Manifestaciones y Conductas Prohibidas Pendiente" [ref=f1e35] [cursor=pointer]:
+              - generic [ref=f1e36]: "02"
+              - generic [ref=f1e37]: Manifestaciones y Conductas Prohibidas
+              - generic [ref=f1e38]: Pendiente
+          - listitem [ref=f1e39]:
+            - button "03 El Principio de Autoridad y el Entorno Laboral ✓ Visto" [ref=f1e319] [cursor=pointer]:
+              - generic [ref=f1e41]: "03"
+              - generic [ref=f1e42]: El Principio de Autoridad y el Entorno Laboral
+              - generic [ref=f1e43]: ✓ Visto
+          - listitem [ref=f1e44]:
+            - button "04 Obligaciones de ELECTROPERU S.A. frente al HSL ✓ Visto" [ref=f1e428] [cursor=pointer]:
+              - generic [ref=f1e46]: "04"
+              - generic [ref=f1e47]: Obligaciones de ELECTROPERU S.A. frente al HSL
+              - generic [ref=f1e48]: ✓ Visto
+          - listitem [ref=f1e49]:
+            - button "05 Derechos de las Trabajadoras y los Trabajadores Pendiente" [ref=f1e50] [cursor=pointer]:
+              - generic [ref=f1e51]: "05"
+              - generic [ref=f1e52]: Derechos de las Trabajadoras y los Trabajadores
+              - generic [ref=f1e53]: Pendiente
+          - listitem [ref=f1e54]:
+            - button "06 El Rol del Comité de Intervención Frente al HSL Pendiente" [ref=f1e55] [cursor=pointer]:
+              - generic [ref=f1e56]: "06"
+              - generic [ref=f1e57]: El Rol del Comité de Intervención Frente al HSL
+              - generic [ref=f1e58]: Pendiente
+          - listitem [ref=f1e59]:
+            - button "07 Pasos y Plazos para Presentar una Denuncia Activo" [active] [ref=f1e429] [cursor=pointer]:
+              - generic [ref=f1e61]: "07"
+              - generic [ref=f1e62]: Pasos y Plazos para Presentar una Denuncia
+              - generic [ref=f1e63]: Activo
+          - listitem [ref=f1e64]:
+            - button "08 Medidas de Protección Inmediata a la Víctima Pendiente" [ref=f1e65] [cursor=pointer]:
+              - generic [ref=f1e66]: "08"
+              - generic [ref=f1e67]: Medidas de Protección Inmediata a la Víctima
+              - generic [ref=f1e68]: Pendiente
+          - listitem [ref=f1e69]:
+            - button "09 Sanciones y Consecuencias del Hostigamiento Pendiente" [ref=f1e70] [cursor=pointer]:
+              - generic [ref=f1e71]: "09"
+              - generic [ref=f1e72]: Sanciones y Consecuencias del Hostigamiento
+              - generic [ref=f1e73]: Pendiente
+          - listitem [ref=f1e74]:
+            - button "10 Canales de Ayuda y Plataforma ALIADA Pendiente" [ref=f1e75] [cursor=pointer]:
+              - generic [ref=f1e76]: "10"
+              - generic [ref=f1e77]: Canales de Ayuda y Plataforma ALIADA
+              - generic [ref=f1e78]: Pendiente
+      - generic [ref=f1e79]:
+        - generic [ref=f1e80]: COBERTURA 360°
+        - heading "Todas las Sedes (Cobertura Nacional)" [level=2] [ref=f1e81]
+        - paragraph [ref=f1e82]: Subgerencia de Gestión Humana • Comité de Intervención Frente al Hostigamiento Sexual
+        - paragraph [ref=f1e83]: Cobertura integral 360° en Sede Central Lima, Complejo Hidroeléctrico del Mantaro y Sede Tumbes (presencial, remoto y contratistas).
+        - generic [ref=f1e84]:
+          - link "Plataforma ALIADA" [ref=f1e85] [cursor=pointer]:
+            - /url: https://aliada.sunafil.gob.pe
+          - link "Línea 1819" [ref=f1e86] [cursor=pointer]:
+            - /url: tel:1819
+    - region "Visor interactivo de flyers" [ref=f1e87]:
+      - tablist "Progreso de historias de la campaña" [ref=f1e88]:
+        - 'tab "Ir al flyer 01: ¿Qué es el Hostigamiento Sexual Laboral?" [ref=f1e89] [cursor=pointer]'
+        - 'tab "Ir al flyer 02: Manifestaciones y Conductas Prohibidas" [ref=f1e91] [cursor=pointer]'
+        - 'tab "Ir al flyer 03: El Principio de Autoridad y el Entorno Laboral" [ref=f1e92] [cursor=pointer]'
+        - 'tab "Ir al flyer 04: Obligaciones de ELECTROPERU S.A. frente al HSL" [ref=f1e93] [cursor=pointer]'
+        - 'tab "Ir al flyer 05: Derechos de las Trabajadoras y los Trabajadores" [ref=f1e94] [cursor=pointer]'
+        - 'tab "Ir al flyer 06: El Rol del Comité de Intervención Frente al HSL" [ref=f1e95] [cursor=pointer]'
+        - 'tab "Ir al flyer 07: Pasos y Plazos para Presentar una Denuncia" [selected] [ref=f1e96] [cursor=pointer]'
+        - 'tab "Ir al flyer 08: Medidas de Protección Inmediata a la Víctima" [ref=f1e97] [cursor=pointer]'
+        - 'tab "Ir al flyer 09: Sanciones y Consecuencias del Hostigamiento" [ref=f1e98] [cursor=pointer]'
+        - 'tab "Ir al flyer 10: Canales de Ayuda y Plataforma ALIADA" [ref=f1e99] [cursor=pointer]'
+      - generic [ref=f1e100]:
+        - generic [ref=f1e101]:
+          - button "Flyer anterior" [ref=f1e102] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e103]: ←
+            - text: Anterior
+          - generic [ref=f1e104]: 07 / 10
+          - button "Siguiente flyer" [ref=f1e105] [cursor=pointer]:
+            - text: Siguiente
+            - generic [aria-hidden] [ref=f1e106]: →
+        - generic [ref=f1e107]:
+          - link "Descargar PNG" [ref=f1e108] [cursor=pointer]:
+            - /url: assets/flyers/flyer_07_flujograma_y_pasos_denuncia.png
+            - generic [aria-hidden] [ref=f1e109]: ↓
+            - text: Descargar PNG
+          - button "Activar o salir de pantalla completa" [ref=f1e110] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e111]: ⛶
+            - text: Pantalla Completa
+      - article [ref=f1e113]:
+        - generic [ref=f1e432]:
+          - img "ELECTROPERU S.A." [ref=f1e435]
+          - generic [ref=f1e436]: RUTA DE ATENCIÓN • FORMATO OFICIAL DE DENUNCIA
+        - generic [ref=f1e437]:
+          - heading "Pasos y Plazos para Presentar una Denuncia" [level=2] [ref=f1e438]
+          - paragraph [ref=f1e439]: Ruta clara, confidencial y con formato oficial disponible en nuestro portal web
+          - generic [ref=f1e440]:
+            - generic [ref=f1e441]: IDEA FUERZA
+            - paragraph [ref=f1e442]: El procedimiento interno te protege desde el primer día; existe un formato para la denuncia disponible en el portal web oficial.
+        - generic [ref=f1e443]:
+          - 'button "Ver detalle legal y ejemplo de Paso 1: Denuncia" [ref=f1e444] [cursor=pointer]':
+            - generic [ref=f1e445]: ETAPA 1 • DÍA 0
+            - generic [ref=f1e454]:
+              - 'heading "Paso 1: Denuncia" [level=3] [ref=f1e455]'
+              - paragraph [ref=f1e456]: Preséntala ante la Subgerencia de Gestión Humana o el Comité usando el formato para la denuncia disponible en nuestro portal web.
+            - generic [ref=f1e457]:
+              - generic [ref=f1e458]: Formato Oficial en Portal Web
+              - generic [ref=f1e459]: Ver detalle +
+          - 'button "Ver detalle legal y ejemplo de Paso 2: Protección" [ref=f1e460] [cursor=pointer]':
+            - generic [ref=f1e461]: 1 A 3 DÍAS HÁB.
+            - generic [ref=f1e469]:
+              - 'heading "Paso 2: Protección" [level=3] [ref=f1e470]'
+              - paragraph [ref=f1e471]: En un día hábil se activa atención médica y en tres días la Subgerencia de Gestión Humana dicta medidas de protección.
+            - generic [ref=f1e472]:
+              - generic [ref=f1e473]: Subgerencia de Gestión Humana
+              - generic [ref=f1e474]: Ver detalle +
+          - 'button "Ver detalle legal y ejemplo de Paso 3: Investigación" [ref=f1e475] [cursor=pointer]':
+            - generic [ref=f1e476]: ≤ 15 DÍAS CAL.
+            - generic [ref=f1e484]:
+              - 'heading "Paso 3: Investigación" [level=3] [ref=f1e485]'
+              - paragraph [ref=f1e486]: El Comité recibe descargos, evalúa las pruebas y emite su informe en quince días calendario.
+            - generic [ref=f1e487]:
+              - generic [ref=f1e488]: Comité de Intervención ELP
+              - generic [ref=f1e489]: Ver detalle +
+          - 'button "Ver detalle legal y ejemplo de Paso 4: Resolución" [ref=f1e490] [cursor=pointer]':
+            - generic [ref=f1e491]: ≤ 10 DÍAS CAL.
+            - generic [ref=f1e498]:
+              - 'heading "Paso 4: Resolución" [level=3] [ref=f1e499]'
+              - paragraph [ref=f1e500]: La Subgerencia de Gestión Humana recibe el informe, escucha alegatos y dicta la sanción final en diez días.
+            - generic [ref=f1e501]:
+              - generic [ref=f1e502]: Subgerencia de Gestión Humana
+              - generic [ref=f1e503]: Ver detalle +
+        - generic [ref=f1e504]:
+          - generic [ref=f1e505]:
+            - generic [ref=f1e506]: FORMATO OFICIAL DE DENUNCIA
+            - heading "Existe un formato para la denuncia disponible en el portal web" [level=3] [ref=f1e507]
+            - paragraph [ref=f1e508]: Accede al formato para la denuncia en https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa (reporte al MTPE en 6 días hábiles).
+            - generic [ref=f1e509]: Art. 29 D.S. N° 014-2019-MIMP • Portal Oficial ELECTROPERU
+          - link "Abrir formato de denuncia y campaña ELECTROPERU S.A. en nueva pestaña" [ref=f1e510] [cursor=pointer]:
+            - /url: https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa
+            - generic [ref=f1e521]: FORMATO DENUNCIA ↗
+        - generic [ref=f1e522]:
+          - paragraph [ref=f1e523]: Descarga el formato para la denuncia en https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa o en el QR.
+          - link "Línea Gratuita 1819" [ref=f1e524] [cursor=pointer]:
+            - /url: tel:1819
+        - generic [ref=f1e525]:
+          - link "www.gob.pe/electroperu" [ref=f1e526] [cursor=pointer]:
+            - /url: https://www.gob.pe/electroperu
+          - generic [ref=f1e527]:
+            - generic [ref=f1e528]: Subgerencia de Gestión Humana
+            - generic [ref=f1e529]: Gerencia de Administración y Finanzas
+      - paragraph [aria-hidden] [ref=f1e223]: Usa ← → para navegar • Esc para cerrar

@@ -303,3 +303,29 @@ Se ha aprovisionado la estructura 100% portable y autocontenida en `/home/laptop
   - Puntuación de auditoría visual elevada de `8.3/10` a **`9.3/10`**.
   - Redespliegue exitoso en producción en `https://electroperu-hsl-interactivo.vercel.app`.
 - **Estado:** Completado satisfactoriamente. **VERSIÓN WEB v2.1 OPTIMIZADA EN PRODUCCIÓN.**
+
+---
+
+### [Fase 8] — Actualización V3.1 (Flyers PNG + PPTX Editable + Web v2.2 + QRs HTTP 200)
+- **Fecha/Hora:** 2026-11-18
+- **Agentes Responsables:** `Agent-ContentPedagogy` / `Agent-VisualAssembler` / `Agent-WebArchitect` / `Agent-WebUIUX` / `web_qa_tester_agent` / `web_visual_auditor_agent` / `Agent-LoggerDocs`
+- **1. Observaciones del Cliente Aplicadas al 100% (Flyers PNG, PPTX y Web Interactiva):**
+  - **Cabecera superior:** Eliminada la leyenda `"SUBGERENCIA DE GESTIÓN HUMANA • COMITÉ CIFHS"` en la totalidad de los 10 flyers.
+  - **Pie inferior:** Eliminado el texto `"ELECTROPERU S.A. — La energía de los peruanos"`, incorporando en la esquina inferior derecha la jerarquía orgánica oficial: **Subgerencia de Gestión Humana** (azul oscuro `#003F70`) y **Gerencia de Administración y Finanzas** (azul más claro `#0066B3` sobre fondo claro `#E6F6FC` / `#D8EAFA`).
+  - **Flyer 03:** Incorporado el alcance institucional completo: `"... o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa"`.
+  - **Flyer 04:** Despliegue de la denominación oficial íntegra `"Comité de Intervención Frente al Hostigamiento Sexual"`.
+  - **Flyer 07:** Inclusión de referencia explícita y código QR directo hacia el formato oficial de denuncia en el portal institucional de ELECTROPERU (`https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa`).
+  - **Estandarización Global:** Reemplazo transversal de toda mención aislada a `"Gestión Humana"` por `"Subgerencia de Gestión Humana"`.
+- **2. Corrección de Códigos QR y Validación Real (11/11 PASS + HTTP 200):**
+  - Sustitución de URLs caídas o con error 404 (`aliada.sunafil.gob.pe` con fallo DNS `000` y enlaces MIMP/MTPE `404`) por rutas oficiales activas de **Gob.pe** con respuesta verificada `HTTP 200`:
+    - `https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-asistencia-legal-integral-para-adolescentes-y-adultos-aliada`
+    - `https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp`
+    - `https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa`
+  - Regeneración de matrices QR con nivel de corrección `ERROR_CORRECT_H` sin recuadros centrales que obstruyan módulos, logrando **11/11 lecturas exitosas (`PASS`)** decodificadas directamente desde los 10 PNGs finales mediante `jsQR` y validación `HTTP 200`.
+- **3. Nuevo Entregable Corporativo PPTX 100% Editable:**
+  - Generación de `flyers_hsl/dist/Campana_HSL_ELECTROPERU_Editable.pptx` (`203 KB`, 10 diapositivas en formato vertical `7.5 × 13.333 in` con **`589` cuadros de texto editables nativos**) mediante el motor `flyers_hsl/templates/generate_editable_pptx.py`.
+- **4. Verificación Web v2.2 y Despliegue en Producción:**
+  - **`web_qa_tester_agent`:** **`8/8 PASS`** en resoluciones `360×800` y `1440×900` (`0` errores de consola, `0` errores 404, `0` overflow).
+  - **`web_visual_auditor_agent`:** Calificación visual elevada a **`9.7 / 10`**.
+  - **Producción y Repositorio:** Redespliegue activo en Vercel (`https://electroperu-hsl-interactivo.vercel.app`) y sincronización mediante `git push` al repositorio GitHub (`electroperu-hsl-interactivo`).
+- **Estado:** Completado satisfactoriamente. **VERSIÓN V3.1 (FLYERS PNG + PPTX EDITABLE + WEB v2.2) EN PRODUCCIÓN.**

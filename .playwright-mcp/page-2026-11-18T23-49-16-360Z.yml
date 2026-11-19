@@ -1,0 +1,183 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - img "ELECTROPERU S.A." [ref=f1e6]
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]: LEY N° 27942 • D. LEG. N° 1410 • LIMA, MANTARO Y TUMBES
+          - heading "Campaña Interactiva de Prevención del HSL" [level=1] [ref=f1e9]
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]:
+          - generic [ref=f1e12]: "Sede:"
+          - combobox "Seleccionar sede de ELECTROPERU S.A." [ref=f1e13] [cursor=pointer]:
+            - option "Todas las Sedes" [selected]
+            - option "Lima"
+            - option "Mantaro"
+            - option "Tumbes"
+        - button "Quiz de Repaso" [ref=f1e14] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e15]: ✓
+  - main [ref=f1e17]:
+    - complementary "Navegación de temas de la campaña" [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - generic [ref=f1e21]: Tu avance en la campaña
+          - generic [ref=f1e22]: 5 / 10 vistos
+        - progressbar [ref=f1e23]
+      - searchbox "Buscar tema de la campaña" [ref=f1e26]
+      - navigation "Temas del 01 al 10" [ref=f1e27]:
+        - list [ref=f1e28]:
+          - listitem [ref=f1e29]:
+            - button "01 ¿Qué es el Hostigamiento Sexual Laboral? ✓ Visto" [ref=f1e224] [cursor=pointer]:
+              - generic [ref=f1e31]: "01"
+              - generic [ref=f1e32]: ¿Qué es el Hostigamiento Sexual Laboral?
+              - generic [ref=f1e33]: ✓ Visto
+          - listitem [ref=f1e34]:
+            - button "02 Manifestaciones y Conductas Prohibidas Pendiente" [ref=f1e35] [cursor=pointer]:
+              - generic [ref=f1e36]: "02"
+              - generic [ref=f1e37]: Manifestaciones y Conductas Prohibidas
+              - generic [ref=f1e38]: Pendiente
+          - listitem [ref=f1e39]:
+            - button "03 El Principio de Autoridad y el Entorno Laboral ✓ Visto" [ref=f1e319] [cursor=pointer]:
+              - generic [ref=f1e41]: "03"
+              - generic [ref=f1e42]: El Principio de Autoridad y el Entorno Laboral
+              - generic [ref=f1e43]: ✓ Visto
+          - listitem [ref=f1e44]:
+            - button "04 Obligaciones de ELECTROPERU S.A. frente al HSL ✓ Visto" [ref=f1e428] [cursor=pointer]:
+              - generic [ref=f1e46]: "04"
+              - generic [ref=f1e47]: Obligaciones de ELECTROPERU S.A. frente al HSL
+              - generic [ref=f1e48]: ✓ Visto
+          - listitem [ref=f1e49]:
+            - button "05 Derechos de las Trabajadoras y los Trabajadores Pendiente" [ref=f1e50] [cursor=pointer]:
+              - generic [ref=f1e51]: "05"
+              - generic [ref=f1e52]: Derechos de las Trabajadoras y los Trabajadores
+              - generic [ref=f1e53]: Pendiente
+          - listitem [ref=f1e54]:
+            - button "06 El Rol del Comité de Intervención Frente al HSL Pendiente" [ref=f1e55] [cursor=pointer]:
+              - generic [ref=f1e56]: "06"
+              - generic [ref=f1e57]: El Rol del Comité de Intervención Frente al HSL
+              - generic [ref=f1e58]: Pendiente
+          - listitem [ref=f1e59]:
+            - button "07 Pasos y Plazos para Presentar una Denuncia ✓ Visto" [ref=f1e530] [cursor=pointer]:
+              - generic [ref=f1e61]: "07"
+              - generic [ref=f1e62]: Pasos y Plazos para Presentar una Denuncia
+              - generic [ref=f1e63]: ✓ Visto
+          - listitem [ref=f1e64]:
+            - button "08 Medidas de Protección Inmediata a la Víctima Pendiente" [ref=f1e65] [cursor=pointer]:
+              - generic [ref=f1e66]: "08"
+              - generic [ref=f1e67]: Medidas de Protección Inmediata a la Víctima
+              - generic [ref=f1e68]: Pendiente
+          - listitem [ref=f1e69]:
+            - button "09 Sanciones y Consecuencias del Hostigamiento Pendiente" [ref=f1e70] [cursor=pointer]:
+              - generic [ref=f1e71]: "09"
+              - generic [ref=f1e72]: Sanciones y Consecuencias del Hostigamiento
+              - generic [ref=f1e73]: Pendiente
+          - listitem [ref=f1e74]:
+            - button "10 Canales de Ayuda y Plataforma ALIADA Activo" [active] [ref=f1e531] [cursor=pointer]:
+              - generic [ref=f1e76]: "10"
+              - generic [ref=f1e77]: Canales de Ayuda y Plataforma ALIADA
+              - generic [ref=f1e78]: Activo
+      - generic [ref=f1e79]:
+        - generic [ref=f1e80]: COBERTURA 360°
+        - heading "Todas las Sedes (Cobertura Nacional)" [level=2] [ref=f1e81]
+        - paragraph [ref=f1e82]: Subgerencia de Gestión Humana • Comité de Intervención Frente al Hostigamiento Sexual
+        - paragraph [ref=f1e83]: Cobertura integral 360° en Sede Central Lima, Complejo Hidroeléctrico del Mantaro y Sede Tumbes (presencial, remoto y contratistas).
+        - generic [ref=f1e84]:
+          - link "Plataforma ALIADA" [ref=f1e85] [cursor=pointer]:
+            - /url: https://aliada.sunafil.gob.pe
+          - link "Línea 1819" [ref=f1e86] [cursor=pointer]:
+            - /url: tel:1819
+    - region "Visor interactivo de flyers" [ref=f1e87]:
+      - tablist "Progreso de historias de la campaña" [ref=f1e88]:
+        - 'tab "Ir al flyer 01: ¿Qué es el Hostigamiento Sexual Laboral?" [ref=f1e89] [cursor=pointer]'
+        - 'tab "Ir al flyer 02: Manifestaciones y Conductas Prohibidas" [ref=f1e91] [cursor=pointer]'
+        - 'tab "Ir al flyer 03: El Principio de Autoridad y el Entorno Laboral" [ref=f1e92] [cursor=pointer]'
+        - 'tab "Ir al flyer 04: Obligaciones de ELECTROPERU S.A. frente al HSL" [ref=f1e93] [cursor=pointer]'
+        - 'tab "Ir al flyer 05: Derechos de las Trabajadoras y los Trabajadores" [ref=f1e94] [cursor=pointer]'
+        - 'tab "Ir al flyer 06: El Rol del Comité de Intervención Frente al HSL" [ref=f1e95] [cursor=pointer]'
+        - 'tab "Ir al flyer 07: Pasos y Plazos para Presentar una Denuncia" [ref=f1e96] [cursor=pointer]'
+        - 'tab "Ir al flyer 08: Medidas de Protección Inmediata a la Víctima" [ref=f1e97] [cursor=pointer]'
+        - 'tab "Ir al flyer 09: Sanciones y Consecuencias del Hostigamiento" [ref=f1e98] [cursor=pointer]'
+        - 'tab "Ir al flyer 10: Canales de Ayuda y Plataforma ALIADA" [selected] [ref=f1e99] [cursor=pointer]'
+      - generic [ref=f1e100]:
+        - generic [ref=f1e101]:
+          - button "Flyer anterior" [ref=f1e102] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e103]: ←
+            - text: Anterior
+          - generic [ref=f1e104]: 10 / 10
+          - button "Siguiente flyer" [disabled] [ref=f1e105]:
+            - text: Siguiente
+            - generic [aria-hidden] [ref=f1e106]: →
+        - generic [ref=f1e107]:
+          - link "Descargar PNG" [ref=f1e108] [cursor=pointer]:
+            - /url: assets/flyers/flyer_10_canales_ayuda_y_plataforma_aliada.png
+            - generic [aria-hidden] [ref=f1e109]: ↓
+            - text: Descargar PNG
+          - button "Activar o salir de pantalla completa" [ref=f1e110] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e111]: ⛶
+            - text: Pantalla Completa
+      - article [ref=f1e113]:
+        - generic [ref=f1e534]:
+          - img "ELECTROPERU S.A." [ref=f1e537]
+          - generic [ref=f1e538]: DIRECTORIO Y RECURSOS • LIMA, MANTARO Y TUMBES
+        - generic [ref=f1e539]:
+          - heading "Canales de Ayuda y Plataforma ALIADA" [level=2] [ref=f1e540]
+          - paragraph [ref=f1e541]: Puntos de contacto seguro y formatos oficiales a tu alcance
+          - generic [ref=f1e542]:
+            - generic [ref=f1e543]: IDEA FUERZA
+            - paragraph [ref=f1e544]: En Lima, Mantaro y Tumbes cuentas con canales internos confidenciales, la Línea 1819 y la Plataforma ALIADA.
+        - generic [ref=f1e545]:
+          - button "Ver detalle legal y ejemplo de Canales ELECTROPERU" [ref=f1e546] [cursor=pointer]:
+            - generic [ref=f1e547]: 3 SEDES ACTIVAS
+            - generic [ref=f1e556]:
+              - heading "Canales ELECTROPERU" [level=3] [ref=f1e557]
+              - paragraph [ref=f1e558]: Acude con total reserva a la Subgerencia de Gestión Humana o al Comité de Intervención.
+            - generic [ref=f1e559]:
+              - generic [ref=f1e560]: Subgerencia de Gestión Humana
+              - generic [ref=f1e561]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Plataforma ALIADA" [ref=f1e562] [cursor=pointer]:
+            - generic [ref=f1e563]: PORTAL SUNAFIL
+            - generic [ref=f1e572]:
+              - heading "Plataforma ALIADA" [level=3] [ref=f1e573]
+              - paragraph [ref=f1e574]: Accede a formatos de denuncia, flujogramas oficiales y guías preventivas en el portal oficial de SUNAFIL.
+            - generic [ref=f1e575]:
+              - generic [ref=f1e576]: Formatos y Evaluación Anual
+              - generic [ref=f1e577]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Línea Gratuita 1819" [ref=f1e578] [cursor=pointer]:
+            - generic [ref=f1e579]: LÍNEA 1819 MTPE
+            - generic [ref=f1e587]:
+              - heading "Línea Gratuita 1819" [level=3] [ref=f1e588]
+              - paragraph [ref=f1e589]: Llama gratis al servicio Trabaja Sin Acoso del MTPE para recibir orientación legal y psicológica.
+            - generic [ref=f1e590]:
+              - generic [ref=f1e591]: Orientación Legal y Psicológica
+              - generic [ref=f1e592]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Normativa en QR" [ref=f1e593] [cursor=pointer]:
+            - generic [ref=f1e594]: ACCESO DIRECTO QR
+            - generic [ref=f1e604]:
+              - heading "Normativa en QR" [level=3] [ref=f1e605]
+              - paragraph [ref=f1e606]: Escanea el código QR para leer la Ley N° 27942, D. Leg. 1410 y reglamento.
+            - generic [ref=f1e607]:
+              - generic [ref=f1e608]: Compendio Legal Actualizado
+              - generic [ref=f1e609]: Ver detalle +
+        - generic [ref=f1e610]:
+          - generic [ref=f1e611]:
+            - generic [ref=f1e612]: ENLACES OFICIALES Y QR
+            - heading "Ayuda inmediata en Lima, Mantaro y Tumbes" [level=3] [ref=f1e613]
+            - paragraph [ref=f1e614]: Consulta la campaña oficial en gob.pe/electroperu, el aplicativo ALIADA de SUNAFIL, la Línea 1819 o la Subgerencia de Gestión Humana.
+            - generic [ref=f1e615]: Ley N° 27942 • D. Leg. N° 1410 • D.S. N° 014-2019-MIMP
+          - generic [ref=f1e616]:
+            - link "Abrir Plataforma ALIADA de SUNAFIL en nueva pestaña" [ref=f1e617] [cursor=pointer]:
+              - /url: https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa
+              - generic [ref=f1e628]: ALIADA SUNAFIL ↗
+            - link "Consultar Ley N° 27942 y D.S. N° 014-2019-MIMP en nueva pestaña" [ref=f1e629] [cursor=pointer]:
+              - /url: https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp
+              - generic [ref=f1e640]: LEY N° 27942 ↗
+        - generic [ref=f1e641]:
+          - paragraph [ref=f1e642]: Construyamos juntos un ELECTROPERU S.A. seguro y respetuoso. ¡Escanea el QR y comparte!
+          - link "Línea Gratuita 1819" [ref=f1e643] [cursor=pointer]:
+            - /url: tel:1819
+        - generic [ref=f1e644]:
+          - link "www.gob.pe/electroperu" [ref=f1e645] [cursor=pointer]:
+            - /url: https://www.gob.pe/electroperu
+          - generic [ref=f1e646]:
+            - generic [ref=f1e647]: Subgerencia de Gestión Humana
+            - generic [ref=f1e648]: Gerencia de Administración y Finanzas

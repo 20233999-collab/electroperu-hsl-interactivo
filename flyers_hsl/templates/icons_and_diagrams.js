@@ -10,10 +10,16 @@ const fs = require('fs');
 const path = require('path');
 const qrMatrices = JSON.parse(fs.readFileSync(path.join(__dirname, 'qr_matrices.json'), 'utf8'));
 
-function renderQrSvg(url, size = 118, primaryColor = '#003F70', accentColor = '#00559F', label = 'ALIADA') {
-  const matrix = url.includes('gob.pe/institucion') ? qrMatrices.ley : qrMatrices.aliada;
+function renderQrSvg(url, size = 118, primaryColor = '#003F70', accentColor = '#00559F') {
+  let matrix = qrMatrices.aliada;
+  if (url && url.includes('electroperu')) {
+    matrix = qrMatrices.electroperu;
+  } else if (url && (url.includes('mimp') || url.includes('normas-legales') || url.includes('285411'))) {
+    matrix = qrMatrices.ley27942 || qrMatrices.ley;
+  }
   const N = matrix.length;
-  const S = 10; // Scale factor so all SVG coordinate units and font-sizes are >= 18
+  const S = 10; // Scale factor so all SVG coordinate units are >= 18
+  const Q = 3;  // 3-module clean white quiet zone on all sides
   let rects = '';
   for (let r = 0; r < N; r++) {
     for (let c = 0; c < N; c++) {
@@ -22,27 +28,24 @@ function renderQrSvg(url, size = 118, primaryColor = '#003F70', accentColor = '#
       const inBL = r >= N - 7 && c < 7;
       if (inTL || inTR || inBL) continue;
       if (matrix[r][c] === 1) {
-        rects += `<rect x="${(c + 2) * S}" y="${(r + 2) * S}" width="8.8" height="8.8" rx="2" fill="${primaryColor}"/>`;
+        rects += `<rect x="${(c + Q) * S}" y="${(r + Q) * S}" width="10.2" height="10.2" fill="${primaryColor}"/>`;
       }
     }
   }
 
   const finderSvg = (x, y) => `
-    <rect x="${(x + 0.35) * S}" y="${(y + 0.35) * S}" width="63" height="63" rx="12" fill="none" stroke="${primaryColor}" stroke-width="9.5"/>
-    <rect x="${(x + 1.85) * S}" y="${(y + 1.85) * S}" width="33" height="33" rx="6" fill="${accentColor}"/>
+    <rect x="${(x + 0.5) * S}" y="${(y + 0.5) * S}" width="60" height="60" fill="none" stroke="${primaryColor}" stroke-width="10"/>
+    <rect x="${(x + 2) * S}" y="${(y + 2) * S}" width="30" height="30" fill="${accentColor}"/>
   `;
 
-  const total = (N + 4) * S;
-  const center = total / 2;
+  const total = (N + Q * 2) * S;
 
-  return `<svg viewBox="0 0 ${total} ${total}" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg">
-    <rect x="5" y="5" width="${total - 10}" height="${total - 10}" rx="28" fill="#FFFFFF" stroke="#76A4D7" stroke-width="7"/>
-    ${finderSvg(2, 2)}
-    ${finderSvg(2 + N - 7, 2)}
-    ${finderSvg(2, 2 + N - 7)}
+  return `<svg viewBox="0 0 ${total} ${total}" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+    <rect x="0" y="0" width="${total}" height="${total}" rx="24" fill="#FFFFFF"/>
+    ${finderSvg(Q, Q)}
+    ${finderSvg(Q + N - 7, Q)}
+    ${finderSvg(Q, Q + N - 7)}
     ${rects}
-    <rect x="${center - 56}" y="${center - 23}" width="112" height="46" rx="12" fill="#003F70" stroke="#FFFFFF" stroke-width="6"/>
-    <text x="${center}" y="${center + 7}" text-anchor="middle" fill="#34B4E4" font-family="Nunito, Plus Jakarta Sans, sans-serif" font-weight="800" font-size="18.5">${label}</text>
   </svg>`;
 }
 

@@ -175,7 +175,9 @@ function renderCardsSection(flyer, theme) {
 
 function renderActionFooter(flyer) {
   const hb = flyer.highlight_box;
-  const isFlyer10 = Number(flyer.id) === 10;
+  const numId = Number(flyer.id);
+  const isFlyer10 = numId === 10;
+  const isFlyer07 = numId === 7;
 
   if (isFlyer10) {
     return `
@@ -188,20 +190,26 @@ function renderActionFooter(flyer) {
         <div class="action-qrs-dual">
           <div class="qr-card-mini">
             <div class="qr-svg-holder">
-              ${renderQrSvg('https://aliada.sunafil.gob.pe', 110, '#003F70', '#00559F', 'ALIADA')}
+              ${renderQrSvg(hb.aliada_link || 'https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual', 112, '#003F70', '#00559F')}
             </div>
-            <div class="qr-mini-caption">aliada.sunafil.gob.pe</div>
+            <div class="qr-mini-caption">ALIADA SUNAFIL</div>
           </div>
           <div class="qr-card-mini">
             <div class="qr-svg-holder">
-              ${renderQrSvg('https://www.gob.pe/institucion/mtpe/tema/hostigamiento-sexual', 110, '#003F70', '#0D9488', 'LEY 27942')}
+              ${renderQrSvg(hb.law_link || 'https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp', 112, '#003F70', '#0D9488')}
             </div>
-            <div class="qr-mini-caption">Normativa Ley 27942</div>
+            <div class="qr-mini-caption">D.S. 014-2019 / Ley</div>
           </div>
         </div>
       </section>
     `;
   }
+
+  const qrUrl = isFlyer07
+    ? (hb.campaign_link || hb.normative_link || 'https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa')
+    : (hb.normative_link || 'https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual');
+  const qrKicker = isFlyer07 ? 'FORMATO DE DENUNCIA' : 'PLATAFORMA OFICIAL';
+  const qrDomain = isFlyer07 ? 'gob.pe/electroperu' : 'gob.pe/sunafil (ALIADA)';
 
   return `
     <section class="action-footer-box">
@@ -212,11 +220,11 @@ function renderActionFooter(flyer) {
       </div>
       <div class="qr-card-single">
         <div class="qr-svg-holder">
-          ${renderQrSvg((flyer.footer && flyer.footer.qr_url) || flyer.qr_target_url || 'https://aliada.sunafil.gob.pe', 118, '#003F70', '#00559F', 'ALIADA')}
+          ${renderQrSvg(qrUrl, 118, '#003F70', '#00559F')}
         </div>
         <div class="qr-info-col">
-          <span class="qr-kicker">PLATAFORMA OFICIAL</span>
-          <strong class="qr-domain">aliada.sunafil.gob.pe</strong>
+          <span class="qr-kicker">${qrKicker}</span>
+          <strong class="qr-domain">${qrDomain}</strong>
           <span class="qr-hotline-pill">Línea 1819 • Gratuita</span>
         </div>
       </div>
@@ -402,7 +410,7 @@ function buildFlyerHtml(flyer) {
 
     .header-program-title {
       font-family: 'Nunito', sans-serif;
-      font-size: 22px;
+      font-size: 25px;
       font-weight: 900;
       color: var(--elp-navy);
       line-height: 1.2;
@@ -686,6 +694,7 @@ function buildFlyerHtml(flyer) {
 
     .action-copy-col {
       flex: 1;
+      min-width: 0;
       display: flex;
       flex-direction: column;
       gap: 8px;
@@ -719,6 +728,8 @@ function buildFlyerHtml(flyer) {
       font-weight: 600;
       color: #EBF3FA;
       line-height: 1.38;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .qr-card-single {
@@ -801,7 +812,7 @@ function buildFlyerHtml(flyer) {
 
     /* Cinta Bicolor Escalonada Inferior (Manual Pág. 30 y 32) */
     .bicolor-ribbon-bottom {
-      height: 48px;
+      height: 62px;
       width: 100%;
       background: var(--elp-blue);
       display: flex;
@@ -815,7 +826,7 @@ function buildFlyerHtml(flyer) {
       align-items: center;
       padding-left: 36px;
       font-family: 'Nunito', sans-serif;
-      font-size: 17px;
+      font-size: 18px;
       font-weight: 800;
       color: #FFFFFF;
       letter-spacing: 0.02em;
@@ -828,21 +839,36 @@ function buildFlyerHtml(flyer) {
 
     .ribbon-bottom-step1 {
       width: 56px;
-      background: var(--elp-steel);
+      background: var(--elp-cyan);
       clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%);
       margin-right: -14px;
     }
 
     .ribbon-bottom-step2 {
-      background: var(--elp-cyan);
+      background: #E6F6FC;
       clip-path: polygon(22px 0, 100% 0, 100% 100%, 0 100%);
-      padding: 0 36px 0 46px;
+      padding: 4px 36px 4px 48px;
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 1px;
+    }
+
+    .footer-unit-dark {
       font-family: 'Nunito', sans-serif;
       font-size: 17px;
       font-weight: 900;
-      color: var(--elp-navy);
+      color: #003F70;
+      line-height: 1.15;
+    }
+
+    .footer-unit-light {
+      font-family: 'Nunito', sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      color: #0066B3;
+      line-height: 1.15;
     }
   </style>
 </head>
@@ -868,7 +894,6 @@ function buildFlyerHtml(flyer) {
           <img class="brand-logo" src="${logoDataUri}" alt="ELECTROPERU S.A." />
         </div>
         <div class="header-title-col">
-          <span class="header-kicker">SUBGERENCIA DE GESTIÓN HUMANA • COMITÉ CIFHS</span>
           <span class="header-program-title">PREVENCIÓN DEL HOSTIGAMIENTO SEXUAL LABORAL</span>
         </div>
         <div class="header-edition-badge">${badgeNumber}</div>
@@ -897,10 +922,13 @@ function buildFlyerHtml(flyer) {
     <footer class="zone-footer">
       ${actionFooterHtml}
       <div class="bicolor-ribbon-bottom">
-        <div class="ribbon-bottom-left">ELECTROPERU S.A. — La energía de los peruanos</div>
+        <div class="ribbon-bottom-left">www.gob.pe/electroperu</div>
         <div class="ribbon-bottom-right">
           <div class="ribbon-bottom-step1"></div>
-          <div class="ribbon-bottom-step2">www.gob.pe/electroperu</div>
+          <div class="ribbon-bottom-step2">
+            <span class="footer-unit-dark">Subgerencia de Gestión Humana</span>
+            <span class="footer-unit-light">Gerencia de Administración y Finanzas</span>
+          </div>
         </div>
       </div>
     </footer>

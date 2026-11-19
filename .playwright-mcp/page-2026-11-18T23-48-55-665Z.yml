@@ -1,0 +1,180 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - img "ELECTROPERU S.A." [ref=f1e6]
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]: LEY N° 27942 • D. LEG. N° 1410 • LIMA, MANTARO Y TUMBES
+          - heading "Campaña Interactiva de Prevención del HSL" [level=1] [ref=f1e9]
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]:
+          - generic [ref=f1e12]: "Sede:"
+          - combobox "Seleccionar sede de ELECTROPERU S.A." [ref=f1e13] [cursor=pointer]:
+            - option "Todas las Sedes" [selected]
+            - option "Lima"
+            - option "Mantaro"
+            - option "Tumbes"
+        - button "Quiz de Repaso" [ref=f1e14] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e15]: ✓
+  - main [ref=f1e17]:
+    - complementary "Navegación de temas de la campaña" [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - generic [ref=f1e21]: Tu avance en la campaña
+          - generic [ref=f1e22]: 1 / 10 vistos
+        - progressbar [ref=f1e23]
+      - searchbox "Buscar tema de la campaña" [ref=f1e26]
+      - navigation "Temas del 01 al 10" [ref=f1e27]:
+        - list [ref=f1e28]:
+          - listitem [ref=f1e29]:
+            - button "01 ¿Qué es el Hostigamiento Sexual Laboral? Activo" [ref=f1e30] [cursor=pointer]:
+              - generic [ref=f1e31]: "01"
+              - generic [ref=f1e32]: ¿Qué es el Hostigamiento Sexual Laboral?
+              - generic [ref=f1e33]: Activo
+          - listitem [ref=f1e34]:
+            - button "02 Manifestaciones y Conductas Prohibidas Pendiente" [ref=f1e35] [cursor=pointer]:
+              - generic [ref=f1e36]: "02"
+              - generic [ref=f1e37]: Manifestaciones y Conductas Prohibidas
+              - generic [ref=f1e38]: Pendiente
+          - listitem [ref=f1e39]:
+            - button "03 El Principio de Autoridad y el Entorno Laboral Pendiente" [ref=f1e40] [cursor=pointer]:
+              - generic [ref=f1e41]: "03"
+              - generic [ref=f1e42]: El Principio de Autoridad y el Entorno Laboral
+              - generic [ref=f1e43]: Pendiente
+          - listitem [ref=f1e44]:
+            - button "04 Obligaciones de ELECTROPERU S.A. frente al HSL Pendiente" [ref=f1e45] [cursor=pointer]:
+              - generic [ref=f1e46]: "04"
+              - generic [ref=f1e47]: Obligaciones de ELECTROPERU S.A. frente al HSL
+              - generic [ref=f1e48]: Pendiente
+          - listitem [ref=f1e49]:
+            - button "05 Derechos de las Trabajadoras y los Trabajadores Pendiente" [ref=f1e50] [cursor=pointer]:
+              - generic [ref=f1e51]: "05"
+              - generic [ref=f1e52]: Derechos de las Trabajadoras y los Trabajadores
+              - generic [ref=f1e53]: Pendiente
+          - listitem [ref=f1e54]:
+            - button "06 El Rol del Comité de Intervención Frente al HSL Pendiente" [ref=f1e55] [cursor=pointer]:
+              - generic [ref=f1e56]: "06"
+              - generic [ref=f1e57]: El Rol del Comité de Intervención Frente al HSL
+              - generic [ref=f1e58]: Pendiente
+          - listitem [ref=f1e59]:
+            - button "07 Pasos y Plazos para Presentar una Denuncia Pendiente" [ref=f1e60] [cursor=pointer]:
+              - generic [ref=f1e61]: "07"
+              - generic [ref=f1e62]: Pasos y Plazos para Presentar una Denuncia
+              - generic [ref=f1e63]: Pendiente
+          - listitem [ref=f1e64]:
+            - button "08 Medidas de Protección Inmediata a la Víctima Pendiente" [ref=f1e65] [cursor=pointer]:
+              - generic [ref=f1e66]: "08"
+              - generic [ref=f1e67]: Medidas de Protección Inmediata a la Víctima
+              - generic [ref=f1e68]: Pendiente
+          - listitem [ref=f1e69]:
+            - button "09 Sanciones y Consecuencias del Hostigamiento Pendiente" [ref=f1e70] [cursor=pointer]:
+              - generic [ref=f1e71]: "09"
+              - generic [ref=f1e72]: Sanciones y Consecuencias del Hostigamiento
+              - generic [ref=f1e73]: Pendiente
+          - listitem [ref=f1e74]:
+            - button "10 Canales de Ayuda y Plataforma ALIADA Pendiente" [ref=f1e75] [cursor=pointer]:
+              - generic [ref=f1e76]: "10"
+              - generic [ref=f1e77]: Canales de Ayuda y Plataforma ALIADA
+              - generic [ref=f1e78]: Pendiente
+      - generic [ref=f1e79]:
+        - generic [ref=f1e80]: COBERTURA 360°
+        - heading "Todas las Sedes (Cobertura Nacional)" [level=2] [ref=f1e81]
+        - paragraph [ref=f1e82]: Subgerencia de Gestión Humana • Comité de Intervención Frente al Hostigamiento Sexual
+        - paragraph [ref=f1e83]: Cobertura integral 360° en Sede Central Lima, Complejo Hidroeléctrico del Mantaro y Sede Tumbes (presencial, remoto y contratistas).
+        - generic [ref=f1e84]:
+          - link "Plataforma ALIADA" [ref=f1e85] [cursor=pointer]:
+            - /url: https://aliada.sunafil.gob.pe
+          - link "Línea 1819" [ref=f1e86] [cursor=pointer]:
+            - /url: tel:1819
+    - region "Visor interactivo de flyers" [ref=f1e87]:
+      - tablist "Progreso de historias de la campaña" [ref=f1e88]:
+        - 'tab "Ir al flyer 01: ¿Qué es el Hostigamiento Sexual Laboral?" [selected] [ref=f1e89] [cursor=pointer]'
+        - 'tab "Ir al flyer 02: Manifestaciones y Conductas Prohibidas" [ref=f1e91] [cursor=pointer]'
+        - 'tab "Ir al flyer 03: El Principio de Autoridad y el Entorno Laboral" [ref=f1e92] [cursor=pointer]'
+        - 'tab "Ir al flyer 04: Obligaciones de ELECTROPERU S.A. frente al HSL" [ref=f1e93] [cursor=pointer]'
+        - 'tab "Ir al flyer 05: Derechos de las Trabajadoras y los Trabajadores" [ref=f1e94] [cursor=pointer]'
+        - 'tab "Ir al flyer 06: El Rol del Comité de Intervención Frente al HSL" [ref=f1e95] [cursor=pointer]'
+        - 'tab "Ir al flyer 07: Pasos y Plazos para Presentar una Denuncia" [ref=f1e96] [cursor=pointer]'
+        - 'tab "Ir al flyer 08: Medidas de Protección Inmediata a la Víctima" [ref=f1e97] [cursor=pointer]'
+        - 'tab "Ir al flyer 09: Sanciones y Consecuencias del Hostigamiento" [ref=f1e98] [cursor=pointer]'
+        - 'tab "Ir al flyer 10: Canales de Ayuda y Plataforma ALIADA" [ref=f1e99] [cursor=pointer]'
+      - generic [ref=f1e100]:
+        - generic [ref=f1e101]:
+          - button "Flyer anterior" [disabled] [ref=f1e102]:
+            - generic [aria-hidden] [ref=f1e103]: ←
+            - text: Anterior
+          - generic [ref=f1e104]: 01 / 10
+          - button "Siguiente flyer" [ref=f1e105] [cursor=pointer]:
+            - text: Siguiente
+            - generic [aria-hidden] [ref=f1e106]: →
+        - generic [ref=f1e107]:
+          - link "Descargar PNG" [ref=f1e108] [cursor=pointer]:
+            - /url: assets/flyers/flyer_01_que_es_el_hsl.png
+            - generic [aria-hidden] [ref=f1e109]: ↓
+            - text: Descargar PNG
+          - button "Activar o salir de pantalla completa" [ref=f1e110] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e111]: ⛶
+            - text: Pantalla Completa
+      - article [ref=f1e113]:
+        - generic [ref=f1e115]:
+          - img "ELECTROPERU S.A." [ref=f1e118]
+          - generic [ref=f1e119]: CONCEPTOS CLAVE • LEY N° 27942
+        - generic [ref=f1e120]:
+          - heading "¿Qué es el Hostigamiento Sexual Laboral?" [level=2] [ref=f1e121]
+          - paragraph [ref=f1e122]: Reconoce las conductas que vulneran tu dignidad en Lima, Mantaro y Tumbes
+          - generic [ref=f1e123]:
+            - generic [ref=f1e124]: IDEA FUERZA
+            - paragraph [ref=f1e125]: Es toda conducta sexual o sexista no deseada que puede crear un ambiente hostil y vulnera tu dignidad laboral.
+        - generic [ref=f1e126]:
+          - button "Ver detalle legal y ejemplo de Conducta No Deseada" [ref=f1e127] [cursor=pointer]:
+            - generic [ref=f1e128]: SIN REITERACIÓN
+            - generic [ref=f1e138]:
+              - heading "Conducta No Deseada" [level=3] [ref=f1e139]
+              - paragraph [ref=f1e140]: "No necesitas rechazarla en voz alta ni que se repita: basta que te incomode."
+            - generic [ref=f1e141]:
+              - generic [ref=f1e142]: Art. 4 D.S. 014-2019-MIMP
+              - generic [ref=f1e143]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Sexual o Sexista" [ref=f1e144] [cursor=pointer]:
+            - generic [ref=f1e145]: D. LEG. N° 1410
+            - generic [ref=f1e155]:
+              - heading "Sexual o Sexista" [level=3] [ref=f1e156]
+              - paragraph [ref=f1e157]: Incluye actos físicos, verbales o digitales de índole sexual y estereotipos que denigran.
+            - generic [ref=f1e158]:
+              - generic [ref=f1e159]: Conducta Sexual o Sexista
+              - generic [ref=f1e160]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Ambiente Laboral Hostil" [ref=f1e161] [cursor=pointer]:
+            - generic [ref=f1e162]: CLIMA SEGURO
+            - generic [ref=f1e175]:
+              - heading "Ambiente Laboral Hostil" [level=3] [ref=f1e176]
+              - paragraph [ref=f1e177]: Genera intimidación o humillación y afecta tu tranquilidad, desempeño o permanencia en el trabajo.
+            - generic [ref=f1e178]:
+              - generic [ref=f1e179]: Lima, Mantaro y Tumbes
+              - generic [ref=f1e180]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Un Acto Basta" [ref=f1e181] [cursor=pointer]:
+            - generic [ref=f1e182]: 1 SOLO ACTO
+            - generic [ref=f1e191]:
+              - heading "Un Acto Basta" [level=3] [ref=f1e192]
+              - paragraph [ref=f1e193]: Según el D.S. 014-2019-MIMP, un solo acto configura hostigamiento sexual sancionable por ley.
+            - generic [ref=f1e194]:
+              - generic [ref=f1e195]: Ley N° 27942 Modificada
+              - generic [ref=f1e196]: Ver detalle +
+        - generic [ref=f1e197]:
+          - generic [ref=f1e198]:
+            - generic [ref=f1e199]: DATO CLAVE NORMATIVO
+            - 'heading "Ley N° 27942 y D. Leg. N° 1410: un solo acto basta" [level=3] [ref=f1e200]'
+            - paragraph [ref=f1e201]: La ley no exige reiteración ni rechazo expreso de la víctima; ELECTROPERU S.A. protege tu dignidad en nuestras tres sedes.
+            - generic [ref=f1e202]: Ley N° 27942 • D. Leg. N° 1410 • D.S. N° 014-2019-MIMP
+          - link "Abrir Plataforma ALIADA de SUNAFIL en nueva pestaña" [ref=f1e203] [cursor=pointer]:
+            - /url: https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual
+            - generic [ref=f1e214]: ALIADA SUNAFIL ↗
+        - generic [ref=f1e215]:
+          - paragraph [ref=f1e216]: Identifica, rechaza y reporta. Escanea el QR para consultar la Plataforma ALIADA de SUNAFIL.
+          - link "Línea Gratuita 1819" [ref=f1e217] [cursor=pointer]:
+            - /url: tel:1819
+        - generic [ref=f1e218]:
+          - link "www.gob.pe/electroperu" [ref=f1e219] [cursor=pointer]:
+            - /url: https://www.gob.pe/electroperu
+          - generic [ref=f1e220]:
+            - generic [ref=f1e221]: Subgerencia de Gestión Humana
+            - generic [ref=f1e222]: Gerencia de Administración y Finanzas
+      - paragraph [aria-hidden] [ref=f1e223]: Usa ← → para navegar • Esc para cerrar

@@ -1,0 +1,180 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - img "ELECTROPERU S.A." [ref=f1e6]
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]: LEY N° 27942 • D. LEG. N° 1410 • LIMA, MANTARO Y TUMBES
+          - heading "Campaña Interactiva de Prevención del HSL" [level=1] [ref=f1e9]
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]:
+          - generic [ref=f1e12]: "Sede:"
+          - combobox "Seleccionar sede de ELECTROPERU S.A." [ref=f1e13] [cursor=pointer]:
+            - option "Todas las Sedes" [selected]
+            - option "Lima"
+            - option "Mantaro"
+            - option "Tumbes"
+        - button "Quiz de Repaso" [ref=f1e14] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e15]: ✓
+  - main [ref=f1e17]:
+    - complementary "Navegación de temas de la campaña" [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - generic [ref=f1e21]: Tu avance en la campaña
+          - generic [ref=f1e22]: 3 / 10 vistos
+        - progressbar [ref=f1e23]
+      - searchbox "Buscar tema de la campaña" [ref=f1e26]
+      - navigation "Temas del 01 al 10" [ref=f1e27]:
+        - list [ref=f1e28]:
+          - listitem [ref=f1e29]:
+            - button "01 ¿Qué es el Hostigamiento Sexual Laboral? ✓ Visto" [ref=f1e224] [cursor=pointer]:
+              - generic [ref=f1e31]: "01"
+              - generic [ref=f1e32]: ¿Qué es el Hostigamiento Sexual Laboral?
+              - generic [ref=f1e33]: ✓ Visto
+          - listitem [ref=f1e34]:
+            - button "02 Manifestaciones y Conductas Prohibidas Pendiente" [ref=f1e35] [cursor=pointer]:
+              - generic [ref=f1e36]: "02"
+              - generic [ref=f1e37]: Manifestaciones y Conductas Prohibidas
+              - generic [ref=f1e38]: Pendiente
+          - listitem [ref=f1e39]:
+            - button "03 El Principio de Autoridad y el Entorno Laboral ✓ Visto" [ref=f1e319] [cursor=pointer]:
+              - generic [ref=f1e41]: "03"
+              - generic [ref=f1e42]: El Principio de Autoridad y el Entorno Laboral
+              - generic [ref=f1e43]: ✓ Visto
+          - listitem [ref=f1e44]:
+            - button "04 Obligaciones de ELECTROPERU S.A. frente al HSL Activo" [active] [ref=f1e320] [cursor=pointer]:
+              - generic [ref=f1e46]: "04"
+              - generic [ref=f1e47]: Obligaciones de ELECTROPERU S.A. frente al HSL
+              - generic [ref=f1e48]: Activo
+          - listitem [ref=f1e49]:
+            - button "05 Derechos de las Trabajadoras y los Trabajadores Pendiente" [ref=f1e50] [cursor=pointer]:
+              - generic [ref=f1e51]: "05"
+              - generic [ref=f1e52]: Derechos de las Trabajadoras y los Trabajadores
+              - generic [ref=f1e53]: Pendiente
+          - listitem [ref=f1e54]:
+            - button "06 El Rol del Comité de Intervención Frente al HSL Pendiente" [ref=f1e55] [cursor=pointer]:
+              - generic [ref=f1e56]: "06"
+              - generic [ref=f1e57]: El Rol del Comité de Intervención Frente al HSL
+              - generic [ref=f1e58]: Pendiente
+          - listitem [ref=f1e59]:
+            - button "07 Pasos y Plazos para Presentar una Denuncia Pendiente" [ref=f1e60] [cursor=pointer]:
+              - generic [ref=f1e61]: "07"
+              - generic [ref=f1e62]: Pasos y Plazos para Presentar una Denuncia
+              - generic [ref=f1e63]: Pendiente
+          - listitem [ref=f1e64]:
+            - button "08 Medidas de Protección Inmediata a la Víctima Pendiente" [ref=f1e65] [cursor=pointer]:
+              - generic [ref=f1e66]: "08"
+              - generic [ref=f1e67]: Medidas de Protección Inmediata a la Víctima
+              - generic [ref=f1e68]: Pendiente
+          - listitem [ref=f1e69]:
+            - button "09 Sanciones y Consecuencias del Hostigamiento Pendiente" [ref=f1e70] [cursor=pointer]:
+              - generic [ref=f1e71]: "09"
+              - generic [ref=f1e72]: Sanciones y Consecuencias del Hostigamiento
+              - generic [ref=f1e73]: Pendiente
+          - listitem [ref=f1e74]:
+            - button "10 Canales de Ayuda y Plataforma ALIADA Pendiente" [ref=f1e75] [cursor=pointer]:
+              - generic [ref=f1e76]: "10"
+              - generic [ref=f1e77]: Canales de Ayuda y Plataforma ALIADA
+              - generic [ref=f1e78]: Pendiente
+      - generic [ref=f1e79]:
+        - generic [ref=f1e80]: COBERTURA 360°
+        - heading "Todas las Sedes (Cobertura Nacional)" [level=2] [ref=f1e81]
+        - paragraph [ref=f1e82]: Subgerencia de Gestión Humana • Comité de Intervención Frente al Hostigamiento Sexual
+        - paragraph [ref=f1e83]: Cobertura integral 360° en Sede Central Lima, Complejo Hidroeléctrico del Mantaro y Sede Tumbes (presencial, remoto y contratistas).
+        - generic [ref=f1e84]:
+          - link "Plataforma ALIADA" [ref=f1e85] [cursor=pointer]:
+            - /url: https://aliada.sunafil.gob.pe
+          - link "Línea 1819" [ref=f1e86] [cursor=pointer]:
+            - /url: tel:1819
+    - region "Visor interactivo de flyers" [ref=f1e87]:
+      - tablist "Progreso de historias de la campaña" [ref=f1e88]:
+        - 'tab "Ir al flyer 01: ¿Qué es el Hostigamiento Sexual Laboral?" [ref=f1e89] [cursor=pointer]'
+        - 'tab "Ir al flyer 02: Manifestaciones y Conductas Prohibidas" [ref=f1e91] [cursor=pointer]'
+        - 'tab "Ir al flyer 03: El Principio de Autoridad y el Entorno Laboral" [ref=f1e92] [cursor=pointer]'
+        - 'tab "Ir al flyer 04: Obligaciones de ELECTROPERU S.A. frente al HSL" [selected] [ref=f1e93] [cursor=pointer]'
+        - 'tab "Ir al flyer 05: Derechos de las Trabajadoras y los Trabajadores" [ref=f1e94] [cursor=pointer]'
+        - 'tab "Ir al flyer 06: El Rol del Comité de Intervención Frente al HSL" [ref=f1e95] [cursor=pointer]'
+        - 'tab "Ir al flyer 07: Pasos y Plazos para Presentar una Denuncia" [ref=f1e96] [cursor=pointer]'
+        - 'tab "Ir al flyer 08: Medidas de Protección Inmediata a la Víctima" [ref=f1e97] [cursor=pointer]'
+        - 'tab "Ir al flyer 09: Sanciones y Consecuencias del Hostigamiento" [ref=f1e98] [cursor=pointer]'
+        - 'tab "Ir al flyer 10: Canales de Ayuda y Plataforma ALIADA" [ref=f1e99] [cursor=pointer]'
+      - generic [ref=f1e100]:
+        - generic [ref=f1e101]:
+          - button "Flyer anterior" [ref=f1e102] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e103]: ←
+            - text: Anterior
+          - generic [ref=f1e104]: 04 / 10
+          - button "Siguiente flyer" [ref=f1e105] [cursor=pointer]:
+            - text: Siguiente
+            - generic [aria-hidden] [ref=f1e106]: →
+        - generic [ref=f1e107]:
+          - link "Descargar PNG" [ref=f1e108] [cursor=pointer]:
+            - /url: assets/flyers/flyer_04_obligaciones_del_empleador.png
+            - generic [aria-hidden] [ref=f1e109]: ↓
+            - text: Descargar PNG
+          - button "Activar o salir de pantalla completa" [ref=f1e110] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e111]: ⛶
+            - text: Pantalla Completa
+      - article [ref=f1e113]:
+        - generic [ref=f1e323]:
+          - img "ELECTROPERU S.A." [ref=f1e326]
+          - generic [ref=f1e327]: COMPROMISO INSTITUCIONAL • FONAFE & SUNAFIL
+        - generic [ref=f1e328]:
+          - heading "Obligaciones de ELECTROPERU S.A. frente al HSL" [level=2] [ref=f1e329]
+          - paragraph [ref=f1e330]: Nuestro deber legal y ético para garantizar un trabajo seguro
+          - generic [ref=f1e331]:
+            - generic [ref=f1e332]: IDEA FUERZA
+            - paragraph [ref=f1e333]: ELECTROPERU S.A. previene, investiga y sanciona el hostigamiento sexual con capacitaciones, canales seguros, el Comité de Intervención Frente al Hostigamiento Sexual y protección inmediata.
+        - generic [ref=f1e334]:
+          - button "Ver detalle legal y ejemplo de Capacitación Obligatoria" [ref=f1e335] [cursor=pointer]:
+            - generic [ref=f1e336]: CAPACITACIÓN ANUAL
+            - generic [ref=f1e344]:
+              - heading "Capacitación Obligatoria" [level=3] [ref=f1e345]
+              - paragraph [ref=f1e346]: Capacitar al personal y brindar formación anual especializada a la Subgerencia de Gestión Humana y al Comité de Intervención Frente al Hostigamiento Sexual.
+            - generic [ref=f1e347]:
+              - generic [ref=f1e348]: Art. 11 D.S. 014-2019-MIMP
+              - generic [ref=f1e349]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Comité de Intervención Frente al Hostigamiento Sexual" [ref=f1e350] [cursor=pointer]:
+            - generic [ref=f1e351]: ≥ 20 TRABAJADORES
+            - generic [ref=f1e363]:
+              - heading "Comité de Intervención Frente al Hostigamiento Sexual" [level=3] [ref=f1e364]
+              - paragraph [ref=f1e365]: Garantizar un Comité de Intervención Frente al Hostigamiento Sexual paritario activo y canales confidenciales de denuncia.
+            - generic [ref=f1e366]:
+              - generic [ref=f1e367]: Comité de Intervención Frente al Hostigamiento Sexual
+              - generic [ref=f1e368]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Protección sin Perjuicio" [ref=f1e369] [cursor=pointer]:
+            - generic [ref=f1e370]: ≤ 3 DÍAS HÁBILES
+            - generic [ref=f1e379]:
+              - heading "Protección sin Perjuicio" [level=3] [ref=f1e380]
+              - paragraph [ref=f1e381]: Dictar medidas de protección en máximo tres días hábiles sin afectar tus derechos laborales.
+            - generic [ref=f1e382]:
+              - generic [ref=f1e383]: Tutela Urgente a la Víctima
+              - generic [ref=f1e384]: Ver detalle +
+          - button "Ver detalle legal y ejemplo de Reporte al MTPE" [ref=f1e385] [cursor=pointer]:
+            - generic [ref=f1e386]: ≤ 6 DÍAS HÁBILES
+            - generic [ref=f1e396]:
+              - heading "Reporte al MTPE" [level=3] [ref=f1e397]
+              - paragraph [ref=f1e398]: Informar las denuncias, medidas y sanciones en la plataforma oficial del Ministerio de Trabajo.
+            - generic [ref=f1e399]:
+              - generic [ref=f1e400]: Plataforma SIHSL MTPE
+              - generic [ref=f1e401]: Ver detalle +
+        - generic [ref=f1e402]:
+          - generic [ref=f1e403]:
+            - generic [ref=f1e404]: COMPROMISO ELECTROPERU S.A.
+            - heading "Prevención activa alineada a FONAFE y SUNAFIL" [level=3] [ref=f1e405]
+            - paragraph [ref=f1e406]: La Subgerencia de Gestión Humana y el Comité de Intervención Frente al Hostigamiento Sexual impulsan la prevención en Lima, Mantaro y Tumbes.
+            - generic [ref=f1e407]: Art. 7 Ley N° 27942 • D.S. N° 014-2019-MIMP
+          - link "Abrir Plataforma ALIADA de SUNAFIL en nueva pestaña" [ref=f1e408] [cursor=pointer]:
+            - /url: https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual
+            - generic [ref=f1e419]: ALIADA SUNAFIL ↗
+        - generic [ref=f1e420]:
+          - paragraph [ref=f1e421]: Un clima laboral íntegro es compromiso de todos. Consulta nuestros protocolos en el QR.
+          - link "Línea Gratuita 1819" [ref=f1e422] [cursor=pointer]:
+            - /url: tel:1819
+        - generic [ref=f1e423]:
+          - link "www.gob.pe/electroperu" [ref=f1e424] [cursor=pointer]:
+            - /url: https://www.gob.pe/electroperu
+          - generic [ref=f1e425]:
+            - generic [ref=f1e426]: Subgerencia de Gestión Humana
+            - generic [ref=f1e427]: Gerencia de Administración y Finanzas
+      - paragraph [aria-hidden] [ref=f1e223]: Usa ← → para navegar • Esc para cerrar

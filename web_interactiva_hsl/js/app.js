@@ -338,11 +338,15 @@
 
     const qrSvg = DATA.qr_svgs && DATA.qr_svgs.aliada ? DATA.qr_svgs.aliada : '';
     const qrLeySvg = DATA.qr_svgs && DATA.qr_svgs.ley27942 ? DATA.qr_svgs.ley27942 : '';
-    const normativeUrl = (flyer.highlight_box && flyer.highlight_box.normative_link) || 'https://aliada.sunafil.gob.pe';
+    const qrElectroSvg = DATA.qr_svgs && DATA.qr_svgs.electroperu ? DATA.qr_svgs.electroperu : '';
+    const aliadaFallbackUrl = 'https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual';
+    const normativeUrl = (flyer.highlight_box && flyer.highlight_box.normative_link) || aliadaFallbackUrl;
     const isDualQr = flyer.id === '10' && Boolean(qrLeySvg);
+    const isFlyer07Electro = flyer.id === '07' && Boolean(qrElectroSvg);
 
-    const qrBlockHtml = isDualQr
-      ? `
+    let qrBlockHtml = '';
+    if (isDualQr) {
+      qrBlockHtml = `
         <div class="flyer-qr-pair">
           <a
             href="${escapeHtml(normativeUrl)}"
@@ -356,19 +360,34 @@
             <span class="flyer-qr-caption">ALIADA SUNAFIL ↗</span>
           </a>
           <a
-            href="https://www.gob.pe/institucion/mimp/informes-publicaciones/1970745-ley-n-27942-ley-de-prevencion-y-sancion-del-hostigamiento-sexual"
+            href="https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp"
             target="_blank"
             rel="noopener noreferrer"
             class="flyer-qr-link"
-            title="Consultar Ley N° 27942"
-            aria-label="Consultar Ley N° 27942 en nueva pestaña"
+            title="Consultar Ley N° 27942 y D.S. N° 014-2019-MIMP"
+            aria-label="Consultar Ley N° 27942 y D.S. N° 014-2019-MIMP en nueva pestaña"
           >
             <div class="flyer-qr-box">${qrLeySvg}</div>
             <span class="flyer-qr-caption">LEY N° 27942 ↗</span>
           </a>
         </div>
-      `
-      : `
+      `;
+    } else if (isFlyer07Electro) {
+      qrBlockHtml = `
+        <a
+          href="https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flyer-qr-link"
+          title="Abrir campaña Juntos contra el Hostigamiento - ELECTROPERU S.A."
+          aria-label="Abrir formato de denuncia y campaña ELECTROPERU S.A. en nueva pestaña"
+        >
+          <div class="flyer-qr-box">${qrElectroSvg}</div>
+          <span class="flyer-qr-caption">FORMATO DENUNCIA ↗</span>
+        </a>
+      `;
+    } else {
+      qrBlockHtml = `
         <a
           href="${escapeHtml(normativeUrl)}"
           target="_blank"
@@ -381,6 +400,7 @@
           <span class="flyer-qr-caption">ALIADA SUNAFIL ↗</span>
         </a>
       `;
+    }
 
     dom.flyerCanvas.innerHTML = `
       <div class="flyer-ribbon-top" aria-hidden="true"></div>
@@ -433,8 +453,11 @@
       </div>
 
       <footer class="flyer-ribbon-bottom">
-        <span class="flyer-footer-brand">ELECTROPERU S.A. • Tolerancia Cero frente al HSL</span>
         <a href="https://www.gob.pe/electroperu" target="_blank" rel="noopener noreferrer" class="flyer-footer-url">www.gob.pe/electroperu</a>
+        <div class="flyer-footer-org">
+          <span class="flyer-footer-subgerencia">Subgerencia de Gestión Humana</span>
+          <span class="flyer-footer-gerencia">Gerencia de Administración y Finanzas</span>
+        </div>
       </footer>
     `;
 
