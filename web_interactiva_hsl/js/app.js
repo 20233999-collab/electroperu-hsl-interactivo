@@ -402,6 +402,14 @@
       `;
     }
 
+    const bannerHighlight = flyer.banner_highlight || flyer.highlight_box || {};
+    const bannerCtaLabel = flyer.cta_button_label || bannerHighlight.cta_button_label || '';
+    const bannerCtaUrl = bannerHighlight.normative_link || normativeUrl;
+    const normativeBannerText =
+      flyer.normative_banner || (flyer.highlight_box && flyer.highlight_box.law_reference) || '';
+    const qrCtaText = flyer.qr_cta_text || 'ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN';
+    const orientationText = flyer.orientation_banner || flyer.cta_footer || '';
+
     dom.flyerCanvas.innerHTML = `
       <div class="flyer-ribbon-top" aria-hidden="true"></div>
 
@@ -412,7 +420,6 @@
             <img src="assets/logo_electroperu_oficial_v3.png" alt="ELECTROPERU S.A." class="flyer-header-logo" width="128" height="87" decoding="async">
           </picture>
         </div>
-        <span class="flyer-category-badge">${escapeHtml(flyer.category_badge)}</span>
       </header>
 
       <div class="flyer-hero">
@@ -429,27 +436,42 @@
               </div>`
             : ''
         }
+        <span class="flyer-category-badge">${escapeHtml(flyer.category_badge)}</span>
       </div>
 
       <div class="flyer-sections ${gridClass}">
         ${cardsHtml}
       </div>
 
-      <div class="flyer-highlight">
-        <div class="flyer-highlight-content">
-          <span class="flyer-highlight-label">${escapeHtml(flyer.highlight_box.label)}</span>
-          <h3 class="flyer-highlight-title">${escapeHtml(flyer.highlight_box.title)}</h3>
-          <p class="flyer-highlight-text">${escapeHtml(flyer.highlight_box.text)}</p>
-          <span class="flyer-highlight-law">${escapeHtml(flyer.highlight_box.law_reference)}</span>
+      <div class="flyer-banner-highlight">
+        <div class="flyer-banner-highlight-body">
+          ${bannerHighlight.label ? `<span class="flyer-banner-label">${escapeHtml(bannerHighlight.label)}</span>` : ''}
+          <h3>${escapeHtml(bannerHighlight.title || '')}</h3>
+          <p>${escapeHtml(bannerHighlight.text || bannerHighlight.body || '')}</p>
         </div>
-        ${qrBlockHtml}
+        ${
+          bannerCtaLabel
+            ? `<a href="${escapeHtml(bannerCtaUrl)}" target="_blank" rel="noopener noreferrer" class="flyer-cta-btn">${escapeHtml(bannerCtaLabel)}</a>`
+            : ''
+        }
       </div>
 
-      <div class="flyer-cta-footer">
-        <p class="flyer-cta-text">${escapeHtml(flyer.cta_footer)}</p>
-        <a href="tel:1819" class="flyer-tel-link" title="Llamar a la Línea Gratuita 1819 del MTPE">
-          Línea Gratuita 1819
-        </a>
+      <div class="flyer-normative-bar">
+        <span>${escapeHtml(normativeBannerText)}</span>
+      </div>
+
+      <div class="flyer-highlight">
+        <div class="flyer-highlight-content">
+          <span class="flyer-highlight-label">ORIENTACIÓN Y AYUDA</span>
+          <h3 class="flyer-highlight-title">${escapeHtml(qrCtaText)}</h3>
+          <p class="flyer-highlight-text">${escapeHtml(orientationText)}</p>
+          <div class="flyer-highlight-actions">
+            <a href="tel:1819" class="flyer-tel-link" title="Llamar a la Línea Gratuita 1819 del MTPE">
+              Línea Gratuita 1819
+            </a>
+          </div>
+        </div>
+        ${qrBlockHtml}
       </div>
 
       <footer class="flyer-ribbon-bottom">

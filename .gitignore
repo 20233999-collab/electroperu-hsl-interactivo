@@ -7,3 +7,5 @@ __pycache__/
 web_interactiva_hsl/reports/screenshots/
 web_interactiva_hsl/reports/screenshots_v2/
 web_interactiva_hsl/reports/screenshots_v3/
+web_interactiva_hsl/reports/screenshots_v4/
+.playwright-mcp/

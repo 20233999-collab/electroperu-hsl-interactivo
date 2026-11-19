@@ -9,9 +9,9 @@
       "id": "01",
       "slug": "flyer_01_que_es_el_hsl",
       "filename": "flyer_01_que_es_el_hsl.png",
-      "category_badge": "CONCEPTOS CLAVE • LEY N° 27942",
+      "category_badge": "CONCEPTOS CLAVE",
       "title": "¿Qué es el Hostigamiento Sexual Laboral?",
-      "subtitle": "Reconoce las conductas que vulneran tu dignidad en Lima, Mantaro y Tumbes",
+      "subtitle": "Reconoce las conductas que vulneran tu dignidad y tranquilidad en el entorno de trabajo",
       "key_concept": "Es toda conducta sexual o sexista no deseada que puede crear un ambiente hostil y vulnera tu dignidad laboral.",
       "infographic_type": "anatomy_cards",
       "sections": [
@@ -20,7 +20,7 @@
           "body": "No necesitas rechazarla en voz alta ni que se repita: basta que te incomode.",
           "tag": "SIN REITERACIÓN",
           "metric_or_badge": "SIN REITERACIÓN",
-          "footer_label": "Art. 4 D.S. 014-2019-MIMP",
+          "footer_label": "Art. 4 D. S. N.° 014-2019-MIMP",
           "icon_concept": "hand_stop_shield",
           "interactive_detail": {
             "legal_ref": "Art. 4 de la Ley N° 27942 • Art. 6 del D.S. N° 014-2019-MIMP",
@@ -32,8 +32,8 @@
         {
           "heading": "Sexual o Sexista",
           "body": "Incluye actos físicos, verbales o digitales de índole sexual y estereotipos que denigran.",
-          "tag": "D. LEG. N° 1410",
-          "metric_or_badge": "D. LEG. N° 1410",
+          "tag": "D. LEG. N.° 1410",
+          "metric_or_badge": "D. LEG. N.° 1410",
           "footer_label": "Conducta Sexual o Sexista",
           "icon_concept": "alert_speech_bubble",
           "interactive_detail": {
@@ -48,7 +48,7 @@
           "body": "Genera intimidación o humillación y afecta tu tranquilidad, desempeño o permanencia en el trabajo.",
           "tag": "IMPACTO LABORAL",
           "metric_or_badge": "CLIMA SEGURO",
-          "footer_label": "Lima, Mantaro y Tumbes",
+          "footer_label": "Protección de la Dignidad",
           "icon_concept": "workplace_warning",
           "interactive_detail": {
             "legal_ref": "Art. 4 y 6 de la Ley N° 27942 • D.S. N° 014-2019-MIMP",
@@ -58,11 +58,11 @@
           }
         },
         {
-          "heading": "Un Acto Basta",
-          "body": "Según el D.S. 014-2019-MIMP, un solo acto configura hostigamiento sexual sancionable por ley.",
-          "tag": "ART. 6 LEY 27942",
+          "heading": "Un Solo Acto Basta",
+          "body": "Según el D. S. N.° 014-2019-MIMP, un solo acto configura hostigamiento sexual sancionable por ley.",
+          "tag": "ART. 6 LEY N.° 27942",
           "metric_or_badge": "1 SOLO ACTO",
-          "footer_label": "Ley N° 27942 Modificada",
+          "footer_label": "Configuración Inmediata",
           "icon_concept": "gavel_scale",
           "interactive_detail": {
             "legal_ref": "Art. 6 del D.S. N° 014-2019-MIMP • Ley N° 27942",
@@ -72,25 +72,36 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Un solo acto puede constituir hostigamiento sexual!",
+        "text": "La ley no requiere reiteración ni rechazo expreso para que una conducta pueda ser considerada hostigamiento sexual. ELECTROPERU protege tu dignidad en nuestras tres sedes.",
+        "body": "La ley no requiere reiteración ni rechazo expreso para que una conducta pueda ser considerada hostigamiento sexual. ELECTROPERU protege tu dignidad en nuestras tres sedes."
+      },
       "highlight_box": {
-        "label": "DATO CLAVE NORMATIVO",
-        "title": "Ley N° 27942 y D. Leg. N° 1410: un solo acto basta",
-        "text": "La ley no exige reiteración ni rechazo expreso de la víctima; ELECTROPERU S.A. protege tu dignidad en nuestras tres sedes.",
-        "body": "La ley no exige reiteración ni rechazo expreso de la víctima; ELECTROPERU S.A. protege tu dignidad en nuestras tres sedes.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Un solo acto puede constituir hostigamiento sexual!",
+        "text": "La ley no requiere reiteración ni rechazo expreso para que una conducta pueda ser considerada hostigamiento sexual. ELECTROPERU protege tu dignidad en nuestras tres sedes.",
+        "body": "La ley no requiere reiteración ni rechazo expreso para que una conducta pueda ser considerada hostigamiento sexual. ELECTROPERU protege tu dignidad en nuestras tres sedes.",
         "normative_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Ley N° 27942 • D. Leg. N° 1410 • D.S. N° 014-2019-MIMP"
+        "cta_button_label": "Consultar Plataforma Oficial ↗",
+        "law_reference": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Identifica, rechaza y reporta. Escanea el QR para consultar la Plataforma ALIADA de SUNAFIL."
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Consultar Plataforma Oficial ↗",
+      "cta_footer": "Identifica, rechaza y reporta. Escanea el código QR para conocer los canales de orientación."
     },
     {
       "id": "02",
       "slug": "flyer_02_manifestaciones_y_conductas",
       "filename": "flyer_02_manifestaciones_y_conductas.png",
-      "category_badge": "ALERTA PREVENTIVA • ART. 6 LEY N° 27942",
+      "category_badge": "ALERTA PREVENTIVA",
       "title": "Manifestaciones y Conductas Prohibidas",
-      "subtitle": "El hostigamiento sexual no es broma ni halago: conoce sus formas",
+      "subtitle": "El hostigamiento sexual no es broma ni halago: identifica sus formas físicas, verbales y digitales",
       "key_concept": "Desde chantajes hasta bromas sexistas, mensajes invasivos o tocamientos: ninguna conducta sexual no deseada se tolera en ELECTROPERU S.A.",
       "infographic_type": "warning_grid",
       "sections": [
@@ -113,7 +124,7 @@
           "body": "Chistes de doble sentido, comentarios sobre el cuerpo o vestimenta e insinuaciones incómodas.",
           "tag": "ACOSO VERBAL",
           "metric_or_badge": "CERO BROMAS",
-          "footer_label": "Art. 6 inc. b) Ley N° 27942",
+          "footer_label": "Art. 6 inc. b) Ley N.° 27942",
           "icon_concept": "megaphone_prohibited",
           "interactive_detail": {
             "legal_ref": "Art. 6 inc. b) y d) de la Ley N° 27942 • D.S. N° 014-2019-MIMP",
@@ -127,7 +138,7 @@
           "body": "Roces deliberados, abrazos forzados, pellizcos o acercamientos que invaden tu espacio personal laboral.",
           "tag": "INVASIÓN FÍSICA",
           "metric_or_badge": "ESPACIO PERSONAL",
-          "footer_label": "Art. 6 inc. c) Ley N° 27942",
+          "footer_label": "Art. 6 inc. c) Ley N.° 27942",
           "icon_concept": "personal_space_barrier",
           "interactive_detail": {
             "legal_ref": "Art. 6 inc. c) de la Ley N° 27942 • D. Leg. N° 1410",
@@ -151,17 +162,28 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡En el trabajo presencial y remoto también aplica!",
+        "text": "Los mensajes por WhatsApp, correos o videollamadas con contenido sexual o sexista no deseado están prohibidos y son sancionados con todo el rigor de la ley.",
+        "body": "Los mensajes por WhatsApp, correos o videollamadas con contenido sexual o sexista no deseado están prohibidos y son sancionados con todo el rigor de la ley."
+      },
       "highlight_box": {
-        "label": "RECUERDA EN ELECTROPERU",
-        "title": "En el trabajo presencial y remoto también aplica",
-        "text": "Los mensajes por WhatsApp, correos o videollamadas en Lima, Mantaro y Tumbes están regulados por la Ley N° 27942.",
-        "body": "Los mensajes por WhatsApp, correos o videollamadas en Lima, Mantaro y Tumbes están regulados por la Ley N° 27942.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡En el trabajo presencial y remoto también aplica!",
+        "text": "Los mensajes por WhatsApp, correos o videollamadas con contenido sexual o sexista no deseado están prohibidos y son sancionados con todo el rigor de la ley.",
+        "body": "Los mensajes por WhatsApp, correos o videollamadas con contenido sexual o sexista no deseado están prohibidos y son sancionados con todo el rigor de la ley.",
         "normative_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Art. 6 Ley N° 27942 • D. Leg. N° 1410"
+        "cta_button_label": "Consultar Guía Preventiva ↗",
+        "law_reference": "Marco normativo: Art. 6 de la Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Ninguna broma justifica la incomodidad. Revisa la guía preventiva en la Plataforma ALIADA."
+      "normative_banner": "Marco normativo: Art. 6 de la Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Consultar Guía Preventiva ↗",
+      "cta_footer": "Ninguna broma justifica la incomodidad. Escanea el código QR para conocer los canales de orientación."
     },
     {
       "id": "03",
@@ -169,7 +191,7 @@
       "filename": "flyer_03_principio_autoridad_y_entorno.png",
       "category_badge": "ALCANCE ORGANIZACIONAL • COBERTURA 360°",
       "title": "El Principio de Autoridad y el Entorno Laboral",
-      "subtitle": "El respeto nos protege a todos sin importar el cargo ni modalidad",
+      "subtitle": "El respeto nos protege a todos sin importar el cargo ni la modalidad contractual",
       "key_concept": "El hostigamiento sexual se sanciona con o sin jerarquía: entre jefaturas, compañeros del mismo nivel, practicantes, contratistas o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa.",
       "infographic_type": "hierarchy_flow",
       "sections": [
@@ -192,7 +214,7 @@
           "body": "Ocurre entre compañeras y compañeros del mismo nivel, creando un ambiente intimidante o humillante.",
           "tag": "ENTRE PARES",
           "metric_or_badge": "SIN DEPENDENCIA",
-          "footer_label": "Sancionable por D. Leg. N° 1410",
+          "footer_label": "Sancionable por D. Leg. N.° 1410",
           "icon_concept": "horizontal_arrows_users",
           "interactive_detail": {
             "legal_ref": "Art. 4 de la Ley N° 27942 • D. Leg. N° 1410",
@@ -206,7 +228,7 @@
           "body": "Abarca personal en planilla, practicantes, locadores, contratistas o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa.",
           "tag": "COBERTURA 360°",
           "metric_or_badge": "TODA MODALIDAD",
-          "footer_label": "Terceros, Comunidades y Representación",
+          "footer_label": "Terceros, Comunidades y Uniforme",
           "icon_concept": "network_shield_nodes",
           "interactive_detail": {
             "legal_ref": "Art. 1, 2 y 21 del D.S. N° 014-2019-MIMP • Ley N° 27942",
@@ -216,17 +238,28 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Protección integral dentro y fuera de la empresa!",
+        "text": "La protección alcanza a trabajadores, contratistas o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa.",
+        "body": "La protección alcanza a trabajadores, contratistas o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa."
+      },
       "highlight_box": {
-        "label": "DATO CLAVE NORMATIVO",
-        "title": "Protección total dentro y fuera de nuestras tres sedes",
-        "text": "Aplica ante contratistas o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa.",
-        "body": "Aplica ante contratistas o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Protección integral dentro y fuera de la empresa!",
+        "text": "La protección alcanza a trabajadores, contratistas o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa.",
+        "body": "La protección alcanza a trabajadores, contratistas o terceros, o comunidades aledañas, o cuando se actúe en representación de ELECTROPERU S.A., o cuando se porte el uniforme de la Empresa.",
         "normative_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Art. 1 y 2 Ley N° 27942 • D.S. N° 014-2019-MIMP"
+        "cta_button_label": "Ver Alcance Normativo ↗",
+        "law_reference": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "El respeto es horizontal y vertical. Consulta el alcance legal escaneando el QR."
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Ver Alcance Normativo ↗",
+      "cta_footer": "El respeto es horizontal y vertical. Escanea el código QR para conocer los canales de orientación."
     },
     {
       "id": "04",
@@ -234,7 +267,7 @@
       "filename": "flyer_04_obligaciones_del_empleador.png",
       "category_badge": "COMPROMISO INSTITUCIONAL • FONAFE & SUNAFIL",
       "title": "Obligaciones de ELECTROPERU S.A. frente al HSL",
-      "subtitle": "Nuestro deber legal y ético para garantizar un trabajo seguro",
+      "subtitle": "Nuestro deber legal y ético para garantizar un entorno laboral seguro y respetuoso",
       "key_concept": "ELECTROPERU S.A. previene, investiga y sanciona el hostigamiento sexual con capacitaciones, canales seguros, el Comité de Intervención Frente al Hostigamiento Sexual y protección inmediata.",
       "infographic_type": "shield_pillars",
       "sections": [
@@ -243,7 +276,7 @@
           "body": "Capacitar al personal y brindar formación anual especializada a la Subgerencia de Gestión Humana y al Comité de Intervención Frente al Hostigamiento Sexual.",
           "tag": "PREVENCIÓN ACTIVA",
           "metric_or_badge": "CAPACITACIÓN ANUAL",
-          "footer_label": "Art. 11 D.S. 014-2019-MIMP",
+          "footer_label": "Art. 11 D. S. N.° 014-2019-MIMP",
           "icon_concept": "graduation_shield",
           "interactive_detail": {
             "legal_ref": "Art. 7 de la Ley N° 27942 • Art. 11 del D.S. N° 014-2019-MIMP",
@@ -295,25 +328,36 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Compromiso activo con la prevención y el debido proceso!",
+        "text": "La Subgerencia de Gestión Humana y el Comité de Intervención Frente al Hostigamiento Sexual garantizan evaluaciones anuales, formación continua y atención confidencial.",
+        "body": "La Subgerencia de Gestión Humana y el Comité de Intervención Frente al Hostigamiento Sexual garantizan evaluaciones anuales, formación continua y atención confidencial."
+      },
       "highlight_box": {
-        "label": "COMPROMISO ELECTROPERU S.A.",
-        "title": "Prevención activa alineada a FONAFE y SUNAFIL",
-        "text": "La Subgerencia de Gestión Humana y el Comité de Intervención Frente al Hostigamiento Sexual impulsan la prevención en Lima, Mantaro y Tumbes.",
-        "body": "La Subgerencia de Gestión Humana y el Comité de Intervención Frente al Hostigamiento Sexual impulsan la prevención en Lima, Mantaro y Tumbes.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Compromiso activo con la prevención y el debido proceso!",
+        "text": "La Subgerencia de Gestión Humana y el Comité de Intervención Frente al Hostigamiento Sexual garantizan evaluaciones anuales, formación continua y atención confidencial.",
+        "body": "La Subgerencia de Gestión Humana y el Comité de Intervención Frente al Hostigamiento Sexual garantizan evaluaciones anuales, formación continua y atención confidencial.",
         "normative_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Art. 7 Ley N° 27942 • D.S. N° 014-2019-MIMP"
+        "cta_button_label": "Consultar Obligaciones Legales ↗",
+        "law_reference": "Marco normativo: Art. 7 de la Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Un clima laboral íntegro es compromiso de todos. Consulta nuestros protocolos en el QR."
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Consultar Obligaciones Legales ↗",
+      "cta_footer": "Un clima laboral íntegro es compromiso de todos. Escanea el código QR para conocer los canales de orientación."
     },
     {
       "id": "05",
       "slug": "flyer_05_derechos_de_los_trabajadores",
       "filename": "flyer_05_derechos_de_los_trabajadores.png",
-      "category_badge": "GARANTÍAS DEL PERSONAL • PROTECCIÓN LEGAL",
+      "category_badge": "GARANTÍAS DEL PERSONAL",
       "title": "Derechos de las Trabajadoras y los Trabajadores",
-      "subtitle": "Alzar la voz está respaldado por ley desde el primer momento",
+      "subtitle": "Alzar la voz está respaldado por la ley desde el primer momento",
       "key_concept": "Tienes derecho a trabajar sin violencia, denunciar con reserva absoluta y recibir protección sin represalias.",
       "infographic_type": "rights_checklist",
       "sections": [
@@ -350,7 +394,7 @@
           "body": "Recibe orientación y canales de atención médica y psicológica dentro del primer día hábil.",
           "tag": "SOPORTE INTEGRAL",
           "metric_or_badge": "≤ 1 DÍA HÁBIL",
-          "footer_label": "Art. 17 D.S. 014-2019-MIMP",
+          "footer_label": "Art. 17 D. S. N.° 014-2019-MIMP",
           "icon_concept": "heart_care_cross",
           "interactive_detail": {
             "legal_ref": "Art. 17 del D.S. N° 014-2019-MIMP",
@@ -374,25 +418,36 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Denunciantes y testigos tienen igual protección legal!",
+        "text": "Quienes declaren o aporten pruebas como testigos están legalmente protegidos contra cualquier represalia, hostilidad o despido.",
+        "body": "Quienes declaren o aporten pruebas como testigos están legalmente protegidos contra cualquier represalia, hostilidad o despido."
+      },
       "highlight_box": {
-        "label": "¿SABÍAS QUE...?",
-        "title": "Testigos y denunciantes tienen igual protección legal",
-        "text": "Quienes declaren o aporten pruebas como testigos están legalmente protegidos contra cualquier represalia o acto de hostilidad laboral.",
-        "body": "Quienes declaren o aporten pruebas como testigos están legalmente protegidos contra cualquier represalia o acto de hostilidad laboral.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Denunciantes y testigos tienen igual protección legal!",
+        "text": "Quienes declaren o aporten pruebas como testigos están legalmente protegidos contra cualquier represalia, hostilidad o despido.",
+        "body": "Quienes declaren o aporten pruebas como testigos están legalmente protegidos contra cualquier represalia, hostilidad o despido.",
         "normative_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "D. Leg. N° 1410 • Art. 17, 18 y 20 D.S. N° 014-2019-MIMP"
+        "cta_button_label": "Conocer Mis Derechos ↗",
+        "law_reference": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Tu voz está protegida por ley. Conoce tus derechos en la Plataforma ALIADA."
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Conocer Mis Derechos ↗",
+      "cta_footer": "Tu voz está protegida por ley. Escanea el código QR para conocer los canales de orientación."
     },
     {
       "id": "06",
       "slug": "flyer_06_rol_del_comite_de_intervencion",
       "filename": "flyer_06_rol_del_comite_de_intervencion.png",
-      "category_badge": "ÓRGANO INVESTIGADOR • ART. 27 D.S. 014-2019-MIMP",
+      "category_badge": "ÓRGANO INVESTIGADOR PARITARIO",
       "title": "El Rol del Comité de Intervención Frente al HSL",
-      "subtitle": "Un órgano paritario, neutral y confidencial al servicio del personal",
+      "subtitle": "Un órgano paritario, neutral y confidencial al servicio de todo el personal",
       "key_concept": "El Comité recibe e investiga denuncias con imparcialidad, coordina protección urgente y emite informes confidenciales.",
       "infographic_type": "committee_hub",
       "sections": [
@@ -453,17 +508,28 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Objetividad e imparcialidad garantizadas en cada caso!",
+        "text": "Si algún integrante del Comité presenta conflicto de interés con cualquiera de las partes, se inhibe de inmediato y asume un miembro suplente.",
+        "body": "Si algún integrante del Comité presenta conflicto de interés con cualquiera de las partes, se inhibe de inmediato y asume un miembro suplente."
+      },
       "highlight_box": {
-        "label": "DATO CLAVE NORMATIVO",
-        "title": "Objetividad garantizada en cada investigación",
-        "text": "Si algún integrante del Comité tiene conflicto de interés, se inhibe de inmediato y asume un miembro suplente.",
-        "body": "Si algún integrante del Comité tiene conflicto de interés, se inhibe de inmediato y asume un miembro suplente.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Objetividad e imparcialidad garantizadas en cada caso!",
+        "text": "Si algún integrante del Comité presenta conflicto de interés con cualquiera de las partes, se inhibe de inmediato y asume un miembro suplente.",
+        "body": "Si algún integrante del Comité presenta conflicto de interés con cualquiera de las partes, se inhibe de inmediato y asume un miembro suplente.",
         "normative_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Ley N° 27942 • Art. 27 y 28 D.S. N° 014-2019-MIMP"
+        "cta_button_label": "Ver Funciones del Comité ↗",
+        "law_reference": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Confía en tu Comité de Intervención. Revisa sus funciones escaneando el código QR."
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Ver Funciones del Comité ↗",
+      "cta_footer": "Confía en tu Comité de Intervención. Escanea el código QR para conocer los canales de orientación."
     },
     {
       "id": "07",
@@ -477,15 +543,15 @@
       "sections": [
         {
           "heading": "Paso 1: Denuncia",
-          "body": "Preséntala ante la Subgerencia de Gestión Humana o el Comité usando el formato para la denuncia disponible en nuestro portal web.",
+          "body": "Preséntala ante la Subgerencia de Gestión Humana o el Comité usando el formato oficial disponible en nuestro portal web.",
           "tag": "DÍA 0 • INICIO",
           "metric_or_badge": "ETAPA 1 • DÍA 0",
           "footer_label": "Formato Oficial en Portal Web",
           "icon_concept": "inbox_document_send",
           "interactive_detail": {
             "legal_ref": "Art. 16 y 29 del D.S. N° 014-2019-MIMP",
-            "explanation": "La denuncia puede presentarla la víctima, un tercero o iniciarse de oficio ante la Subgerencia de Gestión Humana o el Comité de Intervención Frente al Hostigamiento Sexual. Existe un formato para la denuncia disponible en el portal web oficial: https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-            "example": "Descarga y presenta el formato para la denuncia disponible en https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa de forma verbal, escrita o digital.",
+            "explanation": "La denuncia puede presentarla la víctima, un tercero o iniciarse de oficio ante la Subgerencia de Gestión Humana o el Comité de Intervención Frente al Hostigamiento Sexual. Accede al formato oficial de denuncia desde el portal web de ELECTROPERU usando el botón o escaneando el código QR.",
+            "example": "Accede al formato oficial de denuncia desde el portal web de ELECTROPERU usando el botón o escaneando el código QR y preséntalo de forma verbal, escrita o digital.",
             "key_rule": "Día 0: cualquier vía (verbal, escrita o digital) activa el proceso."
           }
         },
@@ -532,23 +598,36 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "FORMATO OFICIAL DE DENUNCIA",
+        "title": "¡Formato oficial de denuncia disponible para ti!",
+        "text": "Accede al formato oficial de denuncia desde el portal web de ELECTROPERU usando el botón o escaneando el código QR.",
+        "body": "Accede al formato oficial de denuncia desde el portal web de ELECTROPERU usando el botón o escaneando el código QR.",
+        "cta_button_label": "Ir al Formato de Denuncia ↗",
+        "normative_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa"
+      },
       "highlight_box": {
         "label": "FORMATO OFICIAL DE DENUNCIA",
-        "title": "Existe un formato para la denuncia disponible en el portal web",
-        "text": "Accede al formato para la denuncia en https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa (reporte al MTPE en 6 días hábiles).",
-        "body": "Accede al formato para la denuncia en https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa (reporte al MTPE en 6 días hábiles).",
+        "title": "¡Formato oficial de denuncia disponible para ti!",
+        "text": "Accede al formato oficial de denuncia desde el portal web de ELECTROPERU usando el botón o escaneando el código QR.",
+        "body": "Accede al formato oficial de denuncia desde el portal web de ELECTROPERU usando el botón o escaneando el código QR.",
+        "cta_button_label": "Ir al Formato de Denuncia ↗",
         "normative_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Art. 29 D.S. N° 014-2019-MIMP • Portal Oficial ELECTROPERU"
+        "law_reference": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Descarga el formato para la denuncia en https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa o en el QR."
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Ir al Formato de Denuncia ↗",
+      "cta_footer": "Accede al formato oficial de denuncia desde el portal web de ELECTROPERU usando el botón o escaneando el código QR."
     },
     {
       "id": "08",
       "slug": "flyer_08_medidas_de_proteccion_inmediata",
       "filename": "flyer_08_medidas_de_proteccion_inmediata.png",
-      "category_badge": "ACCIÓN URGENTE • PLAZO MÁXIMO 3 DÍAS HÁBILES",
+      "category_badge": "ACCIÓN URGENTE • MÁXIMO 3 DÍAS HÁBILES",
       "title": "Medidas de Protección Inmediata a la Víctima",
       "subtitle": "Acciones urgentes para resguardar tu seguridad física y emocional",
       "key_concept": "En máximo tres días hábiles, la Subgerencia de Gestión Humana dicta medidas obligatorias para cortar todo contacto de riesgo y protegerte.",
@@ -559,7 +638,7 @@
           "body": "Cambio físico de lugar o turno del presunto hostigador para evitar contacto con la víctima.",
           "tag": "SEPARACIÓN INMEDIATA",
           "metric_or_badge": "ROTACIÓN INMEDIATA",
-          "footer_label": "Art. 18.2 inc. a) D.S. 014-2019",
+          "footer_label": "Art. 18.2 inc. a) D. S. N.° 014-2019-MIMP",
           "icon_concept": "arrows_split_location",
           "interactive_detail": {
             "legal_ref": "Art. 18.2 inc. a) del D.S. N° 014-2019-MIMP",
@@ -573,7 +652,7 @@
           "body": "Separación preventiva del presunto hostigador de su puesto mientras dura toda la investigación del caso.",
           "tag": "MEDIDA CAUTELAR",
           "metric_or_badge": "SUSPENSIÓN PREVENTIVA",
-          "footer_label": "Art. 18.2 inc. b) D.S. 014-2019",
+          "footer_label": "Art. 18.2 inc. b) D. S. N.° 014-2019-MIMP",
           "icon_concept": "user_pause_badge",
           "interactive_detail": {
             "legal_ref": "Art. 18.2 inc. b) del D.S. N° 014-2019-MIMP",
@@ -587,7 +666,7 @@
           "body": "Prohibición expresa de acercarse o comunicarse con la víctima o su familia por cualquier medio.",
           "tag": "BARRERA DE CONTACTO",
           "metric_or_badge": "CERO CONTACTO",
-          "footer_label": "Art. 18.2 inc. d) D.S. 014-2019",
+          "footer_label": "Art. 18.2 inc. d) D. S. N.° 014-2019-MIMP",
           "icon_concept": "no_contact_ring",
           "interactive_detail": {
             "legal_ref": "Art. 18.2 inc. d) del D.S. N° 014-2019-MIMP",
@@ -601,7 +680,7 @@
           "body": "Rotación de la víctima solo si ella lo pide, sin perjudicar jamás sus derechos laborales.",
           "tag": "A TU SOLICITUD",
           "metric_or_badge": "DERECHOS INTACTOS",
-          "footer_label": "Art. 18.2 inc. c) D.S. 014-2019",
+          "footer_label": "Art. 18.2 inc. c) D. S. N.° 014-2019-MIMP",
           "icon_concept": "hand_heart_calendar",
           "interactive_detail": {
             "legal_ref": "Art. 18.2 inc. c) y 18.3 del D.S. N° 014-2019-MIMP",
@@ -611,25 +690,36 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Protección urgente sin afectar tus derechos laborales!",
+        "text": "Ninguna medida cautelar perjudica la remuneración ni la categoría de la víctima, y también pueden dictarse a favor de testigos.",
+        "body": "Ninguna medida cautelar perjudica la remuneración ni la categoría de la víctima, y también pueden dictarse a favor de testigos."
+      },
       "highlight_box": {
-        "label": "GARANTÍA DE PROTECCIÓN",
-        "title": "Sin perjudicar tus derechos laborales y extensible a testigos",
-        "text": "Ninguna medida perjudica los derechos laborales de la víctima y también pueden dictarse para proteger a los testigos.",
-        "body": "Ninguna medida perjudica los derechos laborales de la víctima y también pueden dictarse para proteger a los testigos.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Protección urgente sin afectar tus derechos laborales!",
+        "text": "Ninguna medida cautelar perjudica la remuneración ni la categoría de la víctima, y también pueden dictarse a favor de testigos.",
+        "body": "Ninguna medida cautelar perjudica la remuneración ni la categoría de la víctima, y también pueden dictarse a favor de testigos.",
         "normative_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Ley N° 27942 • Art. 18 D.S. N° 014-2019-MIMP"
+        "cta_button_label": "Ver Medidas de Protección ↗",
+        "law_reference": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Tu seguridad no espera. Solicita medidas inmediatas ante la Subgerencia de Gestión Humana o el Comité."
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Ver Medidas de Protección ↗",
+      "cta_footer": "Tu seguridad no espera. Escanea el código QR para conocer los canales de orientación."
     },
     {
       "id": "09",
       "slug": "flyer_09_sanciones_y_consecuencias",
       "filename": "flyer_09_sanciones_y_consecuencias.png",
-      "category_badge": "TOLERANCIA CERO • LEY N° 27942 & D. LEG. N° 1410",
+      "category_badge": "TOLERANCIA CERO • RÉGIMEN DISCIPLINARIO",
       "title": "Sanciones y Consecuencias del Hostigamiento",
-      "subtitle": "En ELECTROPERU S.A. aplicamos tolerancia cero: es falta grave y delito",
+      "subtitle": "En ELECTROPERU S.A. aplicamos tolerancia cero: es falta grave laboral y delito penal",
       "key_concept": "El hostigamiento sexual comprobado se castiga con sanciones disciplinarias hasta el despido y conlleva pena de cárcel.",
       "infographic_type": "severity_scale",
       "sections": [
@@ -666,7 +756,7 @@
           "body": "Extinción definitiva del vínculo laboral por falta grave sin derecho a indemnización alguna por ley.",
           "tag": "FALTA GRAVE",
           "metric_or_badge": "NIVEL 3 • DESPIDO",
-          "footer_label": "Art. 25 D.S. N° 003-97-TR",
+          "footer_label": "Art. 25 D. S. N.° 003-97-TR",
           "icon_concept": "gavel_ban_building",
           "interactive_detail": {
             "legal_ref": "Art. 25 inc. d) del D.S. N° 003-97-TR • Ley N° 27942",
@@ -677,7 +767,7 @@
         },
         {
           "heading": "Delito Penal",
-          "body": "El D. Leg. N° 1410 sanciona el acoso y chantaje sexual con pena de cárcel.",
+          "body": "El D. Leg. N.° 1410 sanciona el acoso y chantaje sexual con pena de cárcel.",
           "tag": "VÍA PENAL",
           "metric_or_badge": "ART. 176-B y 176-C CP",
           "footer_label": "Ministerio Público y Poder Judicial",
@@ -690,33 +780,44 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Tolerancia cero: falta laboral muy grave y delito penal!",
+        "text": "Además del despido justificado, el hostigamiento sexual acarrea responsabilidad penal ante el Ministerio Público y fiscalización de SUNAFIL.",
+        "body": "Además del despido justificado, el hostigamiento sexual acarrea responsabilidad penal ante el Ministerio Público y fiscalización de SUNAFIL."
+      },
       "highlight_box": {
-        "label": "MARCO LEGAL PERUANO",
-        "title": "Falta laboral muy grave y delito penal",
-        "text": "Además del despido o destitución, el hostigamiento sexual acarrea denuncia penal y multas muy graves ante la SUNAFIL.",
-        "body": "Además del despido o destitución, el hostigamiento sexual acarrea denuncia penal y multas muy graves ante la SUNAFIL.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Tolerancia cero: falta laboral muy grave y delito penal!",
+        "text": "Además del despido justificado, el hostigamiento sexual acarrea responsabilidad penal ante el Ministerio Público y fiscalización de SUNAFIL.",
+        "body": "Además del despido justificado, el hostigamiento sexual acarrea responsabilidad penal ante el Ministerio Público y fiscalización de SUNAFIL.",
         "normative_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Ley N° 27942 • D. Leg. N° 1410 • Art. 25 D.S. 003-97-TR"
+        "cta_button_label": "Consultar Régimen Sancionador ↗",
+        "law_reference": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Cero impunidad frente al hostigamiento sexual. Consulta el régimen sancionador en el QR."
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Consultar Régimen Sancionador ↗",
+      "cta_footer": "Cero impunidad frente al hostigamiento sexual. Escanea el código QR para conocer los canales de orientación."
     },
     {
       "id": "10",
       "slug": "flyer_10_canales_ayuda_y_plataforma_aliada",
       "filename": "flyer_10_canales_ayuda_y_plataforma_aliada.png",
-      "category_badge": "DIRECTORIO Y RECURSOS • LIMA, MANTARO Y TUMBES",
+      "category_badge": "DIRECTORIO Y RECURSOS OFICIALES",
       "title": "Canales de Ayuda y Plataforma ALIADA",
-      "subtitle": "Puntos de contacto seguro y formatos oficiales a tu alcance",
-      "key_concept": "En Lima, Mantaro y Tumbes cuentas con canales internos confidenciales, la Línea 1819 y la Plataforma ALIADA.",
+      "subtitle": "Puntos de contacto seguro y herramientas oficiales a tu alcance",
+      "key_concept": "Cuentas con canales internos confidenciales en ELECTROPERU S.A., la Línea Gratuita 1819 y la Plataforma ALIADA de SUNAFIL.",
       "infographic_type": "culture_manifesto",
       "sections": [
         {
           "heading": "Canales ELECTROPERU",
           "body": "Acude con total reserva a la Subgerencia de Gestión Humana o al Comité de Intervención.",
-          "tag": "LIMA • MANTARO • TUMBES",
-          "metric_or_badge": "3 SEDES ACTIVAS",
+          "tag": "ATENCIÓN CONFIDENCIAL",
+          "metric_or_badge": "CANAL INTERNO",
           "footer_label": "Subgerencia de Gestión Humana",
           "icon_concept": "headset_building_shield",
           "interactive_detail": {
@@ -729,7 +830,7 @@
         {
           "heading": "Plataforma ALIADA",
           "body": "Accede a formatos de denuncia, flujogramas oficiales y guías preventivas en el portal oficial de SUNAFIL.",
-          "tag": "GOB.PE/SUNAFIL • ALIADA",
+          "tag": "APLICATIVO ALIADA",
           "metric_or_badge": "PORTAL SUNAFIL",
           "footer_label": "Formatos y Evaluación Anual",
           "icon_concept": "laptop_globe_verified",
@@ -756,7 +857,7 @@
         },
         {
           "heading": "Normativa en QR",
-          "body": "Escanea el código QR para leer la Ley N° 27942, D. Leg. 1410 y reglamento.",
+          "body": "Escanea el código QR para consultar el compendio legal actualizado y los formatos oficiales.",
           "tag": "QR NORMATIVO OFICIAL",
           "metric_or_badge": "ACCESO DIRECTO QR",
           "footer_label": "Compendio Legal Actualizado",
@@ -769,18 +870,29 @@
           }
         }
       ],
+      "banner_highlight": {
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Tu voz importa: estamos listos para escucharte y protegerte!",
+        "text": "Accede a la campaña oficial de ELECTROPERU S.A., al aplicativo ALIADA de SUNAFIL o comunícate gratis a la Línea 1819.",
+        "body": "Accede a la campaña oficial de ELECTROPERU S.A., al aplicativo ALIADA de SUNAFIL o comunícate gratis a la Línea 1819."
+      },
       "highlight_box": {
-        "label": "ENLACES OFICIALES Y QR",
-        "title": "Ayuda inmediata en Lima, Mantaro y Tumbes",
-        "text": "Consulta la campaña oficial en gob.pe/electroperu, el aplicativo ALIADA de SUNAFIL, la Línea 1819 o la Subgerencia de Gestión Humana.",
-        "body": "Consulta la campaña oficial en gob.pe/electroperu, el aplicativo ALIADA de SUNAFIL, la Línea 1819 o la Subgerencia de Gestión Humana.",
+        "label": "MENSAJE DESTACADO",
+        "title": "¡Tu voz importa: estamos listos para escucharte y protegerte!",
+        "text": "Accede a la campaña oficial de ELECTROPERU S.A., al aplicativo ALIADA de SUNAFIL o comunícate gratis a la Línea 1819.",
+        "body": "Accede a la campaña oficial de ELECTROPERU S.A., al aplicativo ALIADA de SUNAFIL o comunícate gratis a la Línea 1819.",
         "normative_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
         "aliada_link": "https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual",
         "law_link": "https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp",
         "campaign_link": "https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa",
-        "law_reference": "Ley N° 27942 • D. Leg. N° 1410 • D.S. N° 014-2019-MIMP"
+        "cta_button_label": "Ir al Portal de Campaña ↗",
+        "law_reference": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP."
       },
-      "cta_footer": "Construyamos juntos un ELECTROPERU S.A. seguro y respetuoso. ¡Escanea el QR y comparte!"
+      "normative_banner": "Marco normativo: Ley N.° 27942, D. Leg. N.° 1410 y D. S. N.° 014-2019-MIMP.",
+      "orientation_banner": "Orientación y ayuda: código QR, plataforma oficial y Línea 1819.",
+      "qr_cta_text": "ESCANEA Y CONOCE LOS CANALES DE ORIENTACIÓN",
+      "cta_button_label": "Ir al Portal de Campaña ↗",
+      "cta_footer": "Construyamos juntos un ELECTROPERU S.A. seguro y respetuoso. ¡Escanea el código QR y comparte!"
     }
   ],
   "icons": {
@@ -922,7 +1034,7 @@
         "Ninguno; todo trámite es exclusivamente interno."
       ],
       "correctIndex": 1,
-      "explanation": "Existe un formato para la denuncia disponible en https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa, además del aplicativo ALIADA de SUNAFIL en Gob.pe y la Línea 1819 del MTPE."
+      "explanation": "Accede al formato oficial de denuncia desde el portal web de ELECTROPERU en Gob.pe, además del aplicativo ALIADA de SUNAFIL y la Línea Gratuita 1819 del MTPE."
     }
   ]
 };

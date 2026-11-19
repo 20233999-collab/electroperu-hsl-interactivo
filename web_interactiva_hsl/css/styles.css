@@ -876,6 +876,15 @@ a {
   text-align: right;
 }
 
+.flyer-hero .flyer-category-badge {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 10px;
+  align-self: flex-start;
+  text-align: left;
+}
+
 /* Hero Banner Azul con Arcos Orbitales Sutiles */
 .flyer-hero {
   position: relative;
@@ -977,10 +986,10 @@ a {
 
 /* Grilla de Tarjetas (2x2 o 3 Horizontales en Flyer 03) */
 .flyer-sections {
-  padding: 24px 28px;
+  padding: 20px 28px;
   background: linear-gradient(180deg, #F8FBFF 0%, var(--surface-white) 100%);
   display: grid;
-  gap: 16px;
+  gap: 14px;
 }
 
 .flyer-grid-2x2 {
@@ -992,8 +1001,8 @@ a {
 }
 
 .flyer-grid-horizontal .flyer-card {
-  gap: 10px;
-  padding: 18px 20px;
+  gap: 8px;
+  padding: 15px 18px;
 }
 
 .flyer-qr-pair {
@@ -1006,9 +1015,9 @@ a {
 .flyer-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 18px;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 15px 16px;
   border-radius: 16px;
   border: 1.5px solid var(--elp-ice);
   background: var(--surface-white);
@@ -1099,11 +1108,12 @@ a {
 }
 
 .flyer-card-footer {
+  margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  padding-top: 10px;
+  padding-top: 8px;
   border-top: 1px solid var(--elp-ice-soft);
 }
 
@@ -1129,7 +1139,83 @@ a {
   box-shadow: 0 3px 10px rgba(52, 180, 228, 0.35);
 }
 
-/* Bloque Inferior Highlight + QR Clicable */
+/* Nuevo Bloque Destacado Intermedio (.flyer-banner-highlight) + CTA */
+.flyer-banner-highlight {
+  margin: 0 28px 16px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  background-color: #EBF5FF;
+  background: linear-gradient(135deg, #EBF5FF 0%, #DCEEFF 100%);
+  border: 1px solid #76A4D7;
+  border-left: 5px solid #00559F;
+}
+
+.flyer-banner-highlight-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #00559F;
+  margin-bottom: 4px;
+}
+
+.flyer-banner-highlight-title {
+  margin: 0 0 6px;
+  font-size: 1.02rem;
+  font-weight: 900;
+  color: #003F70;
+  line-height: 1.25;
+}
+
+.flyer-banner-highlight-text {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1E293B;
+  line-height: 1.45;
+}
+
+.flyer-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: #00559F;
+  color: #FFFFFF;
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.flyer-cta-btn:hover {
+  background: #003F70;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 63, 112, 0.22);
+}
+
+.flyer-cta-btn:focus-visible {
+  outline: 3px solid var(--elp-cyan);
+  outline-offset: 2px;
+}
+
+/* Espacio A: Franja Normativa Compacta (.flyer-normative-bar) */
+.flyer-normative-bar {
+  margin: 0 28px 16px;
+  background: #F1F6FC;
+  border: 1px solid #C4DAF1;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #003F70;
+  line-height: 1.4;
+}
+
+/* Espacio B: Bloque Inferior Highlight + QR Clicable */
 .flyer-highlight {
   margin: 0 28px 20px;
   padding: 18px 20px;
@@ -1205,8 +1291,8 @@ a {
 }
 
 .flyer-qr-box {
-  width: 90px;
-  height: 90px;
+  width: 132px;
+  height: 132px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1223,6 +1309,18 @@ a {
   font-weight: 900;
   color: var(--elp-blue);
   letter-spacing: 0.03em;
+}
+
+.flyer-qr-cta-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #003F70;
+  text-align: center;
+  line-height: 1.25;
+  max-width: 148px;
 }
 
 /* CTA Footer + Línea 1819 */
@@ -1910,6 +2008,11 @@ a {
   .flyer-grid-2x2,
   .flyer-grid-horizontal {
     grid-template-columns: 1fr;
+  }
+
+  .flyer-banner-highlight,
+  .flyer-normative-bar {
+    margin: 0 18px 14px;
   }
 
   .flyer-highlight {
