@@ -193,9 +193,9 @@ Además de las 10 láminas PNG estáticas en formato 9:16, se construyó, audit�
     node --check /home/laptop/Documentos/TRD_serviciocapa/web_interactiva_hsl/js/data.js
     node --check /home/laptop/Documentos/TRD_serviciocapa/web_interactiva_hsl/js/app.js
     ```
-  - Si se regeneran los flyers en `flyers_hsl/dist/`, sincronizarlos hacia la web con:
+  - Si se regeneran los flyers vigentes V4 en `flyers_hsl/dist_v4/`, sincronizarlos hacia la web con:
     ```bash
-    cp /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/dist/*.png /home/laptop/Documentos/TRD_serviciocapa/web_interactiva_hsl/assets/flyers/
+    cp /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/dist_v4/*.png /home/laptop/Documentos/TRD_serviciocapa/web_interactiva_hsl/assets/flyers/
     ```
 
 ---
@@ -218,34 +218,59 @@ Además de las 10 láminas PNG estáticas en formato 9:16, se construyó, audit�
 
 ---
 
-## 6. Comandos Útiles para Futuras Modificaciones (Motor de Flyers PNG)
+## 6. Comandos Útiles para Futuras Modificaciones (Motor V4 Vigente)
 
-1. **Editar los textos:** Modificar `/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/content/flyers_data.json`.
-2. **Recompilar las plantillas HTML v3.0:**
+1. **Editar los textos V4:** Modificar `/home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/content/flyers_data_v4.json` (y sincronizar `web_interactiva_hsl/js/data.js`).
+2. **Recompilar las plantillas HTML y renderizar los PNG V4 (`dist_v4/`, 1080×1920):**
    ```bash
    cd /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/templates
-   node generate_flyers.js
+   node generate_flyers_v4.js
+   node render_and_verify_v4.js
    ```
-3. **Renderizar los PNG (1080x1920) y ejecutar auditoría DOM:**
-   ```bash
-   cd /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/templates
-   node render_and_verify.js
-   ```
-4. **Validar dimensiones e integridad de imágenes:**
+   *(Para la versión anterior preservada v3.1 en `dist/`, usar `flyers_data.json`, `node generate_flyers.js` y `node render_and_verify.js`.)*
+3. **Validar dimensiones e integridad de imágenes:**
    ```bash
    cd /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/templates
    python3 verify_images.py
    ```
-5. **Regenerar la presentación PowerPoint 100% editable (`.pptx`):**
+4. **Regenerar la presentación PowerPoint 100% editable (`.pptx`):**
+   - El Python del sistema (Ubuntu PEP 668) no trae `python-pptx` ni permite `pip install` global; usar el entorno virtual de scratch o crear uno nuevo con `python-pptx`, `qrcode` y `pillow`:
    ```bash
    cd /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/templates
-   # Para versión V4 (dist_v4/, 605 shapes):
-   python3 generate_editable_pptx_v4.py
-   # Para versión v3.1 preservada (dist/, 589 shapes):
-   python3 generate_editable_pptx.py
+   # Usando el venv existente (o uno creado con python3 -m venv):
+   /home/laptop/.gemini/antigravity-cli/brain/d7c34328-3bb5-422f-9e62-a6528a3bcd3b/scratch/venv/bin/python generate_editable_pptx_v4.py
    ```
-6. **Recompilar los flyers V4 (`dist_v4/`):**
-   ```bash
-   cd /home/laptop/Documentos/TRD_serviciocapa/flyers_hsl/templates
-   node generate_flyers_v4.js
-   ```
+
+---
+
+## 7. Repositorios, Despliegue y Dificultades / Reglas Críticas para Futuras Sesiones
+
+### Repositorios y Producción Vigentes
+* **Web Interactiva en Vercel:** `https://electroperu-hsl-interactivo.vercel.app` (equipo `miguels-projects-440e7871`, proyecto `electroperu-hsl-interactivo`).
+* **Repositorio GitHub:** `https://github.com/20233999-collab/electroperu-hsl-interactivo` (rama `main`, `.gitignore` excluye `.vercel/`, `node_modules/`, `__pycache__/`, `.playwright-mcp/` y `web_interactiva_hsl/reports/screenshots*`).
+* **Configuración de Caché y Seguridad (`web_interactiva_hsl/vercel.json`):** `Cache-Control: public, max-age=604800, stale-while-revalidate=86400` para `/assets/*`, `/css/*` y `/js/*`; `max-age=0, must-revalidate` para `/` e `/index.html`; más cabeceras `X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, `Referrer-Policy` y `Permissions-Policy`. `.vercelignore` excluye `reports/`.
+
+### Dificultades Encontradas y Soluciones Obligatorias
+1. **Vercel CLI (`Error: Not authorized` / bloqueo por actualización interactiva):**
+   - *Problema:* Ejecutar `vercel deploy --prod --yes` sin `--scope` puede arrojar `Error: Not authorized` y quedarse colgado esperando respuesta en `? Would you like to upgrade now? (Y/n)`.
+   - *Solución obligatoria:* Desplegar siempre desde `web_interactiva_hsl/` con scope explícito y entrada nula:
+     ```bash
+     cd /home/laptop/Documentos/TRD_serviciocapa/web_interactiva_hsl
+     CI=1 VERCEL_TELEMETRY_DISABLED=1 vercel deploy --prod --yes --scope miguels-projects-440e7871 < /dev/null
+     ```
+2. **Códigos QR Rotos / Páginas Inexistentes:**
+   - *Problema:* En iteraciones iniciales, `https://aliada.sunafil.gob.pe` fallaba por DNS (`000`) y las URLs antiguas de MIMP (`1970745-...`) y MTPE (`/tema/hostigamiento-sexual`) devolvían `404`. Además, colocar un recuadro con texto en el centro del QR rompía la lectura en escáneres reales.
+   - *Regla:* Usar únicamente matrices generadas con `ERROR_CORRECT_H`, *quiet zone* blanca limpia, **sin nada tapando el centro**, apuntando a las 3 URLs oficiales verificadas (`HTTP 200`):
+     - **ALIADA SUNAFIL:** `https://www.gob.pe/institucion/sunafil/campa%C3%B1as/143346-aplicativo-aliada-tu-asesora-frente-al-hostigamiento-sexual`
+     - **Formato Denuncia ELECTROPERU (Flyer 07):** `https://www.gob.pe/institucion/electroperu/campa%C3%B1as/40531-juntos-contra-el-hostigamiento-tu-voz-importa`
+     - **Ley N° 27942 / D.S. 014-2019-MIMP (Flyer 10 der.):** `https://www.gob.pe/institucion/mimp/normas-legales/285411-014-2019-mimp`
+   - *Validación:* Decodificar siempre los PNGs finales con `jsQR` y verificar `curl -ILs` (`200 OK`).
+3. **Proporción del Logotipo Oficial:**
+   - `identidad visual/LogoElectroPeru3.png` estaba estirado horizontalmente (+30.6%). Usar siempre `assets/logo_electroperu_oficial_v3.png` (`860×586 px`) en flyers/PPTX y `assets/logo_electroperu_web.webp` (`256×174 px`, `15 KB`) en la web, manteniendo `aspect-ratio: 860 / 586; height: auto; object-fit: contain;`.
+4. **Responsividad Móvil (`360×800`) y Accesibilidad WCAG 2.1 AA:**
+   - En Flyer 10 móvil, `.flyer-qr-pair` debe usar `display: grid; grid-template-columns: repeat(2, minmax(0, 1fr))` en `<= 768px` para evitar recorte horizontal del segundo QR.
+   - `.flyer-counter` requiere `white-space: nowrap` y `.story-segment` mantiene área táctil de `40 px` vía `::after`.
+   - Para texto pequeño sobre fondo claro, usar `--elp-text-muted: #525866` (`>= 6.5:1`), nunca `--elp-gray` (`#868689`, falla AA).
+   - Mantener **Focus Trap** y retorno de foco al cerrar `#detail-modal` y `#quiz-modal` en `js/app.js`.
+5. **Regla de Comunicación (Observaciones `obs02`):**
+   - No volver a agregar la franja superior de sedes (`SEDES LIMA, MANTARO Y TUMBES`), ni imprimir URLs largas en texto plano en Flyer 07 (usar botón `Ir al Formato de Denuncia ↗` + QR), ni subir textos de categoría/leyes por encima del título principal del Hero.
